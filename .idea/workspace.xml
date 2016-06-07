@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/config/db.php" line="5" mnemonic="2" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ccf57a1-f60c-4c3a-89d8-fecbf9ff4fed" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/config/api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/config/params.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/CommentController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/CuserController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/FavoriteController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/FollowController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/GameOpponentController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/OpponentController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/PickController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/VoteController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/WatchController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/phpinfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/assets/AppAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/commands/HelloController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/config/console.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/config/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/config/params.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/config/web.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/controllers/CuserController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/controllers/SiteController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/mail/layouts/html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/ContactForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/Cuser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/CuserQuery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/LoginForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/base/Cuser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/sample_cuser.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/phpcli.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/requirements.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/runtime/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_output/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_pages/AboutPage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_pages/ContactPage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_pages/LoginPage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/AboutCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/ContactCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/HomeCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/bin/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/bin/yii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/bin/yii.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/config/acceptance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/config/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/config/functional.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/config/unit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/fixtures/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/AboutCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/ContactCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/HomeCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/templates/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/fixtures/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/fixtures/data/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/models/ContactFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/models/LoginFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/models/UserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/templates/fixtures/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/_detail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/_pdf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/_script.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/create.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/layouts/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/about.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/contact.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/assets/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/index-test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/phpinfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/requirements.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/testoci.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/testoci_local.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/yii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/yii.bat" afterPath="" />
+    </list>
+    <ignored path="htdocs.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="htdocs" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Cuser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Cuser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="e#30#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/cuser/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cors.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3111">
+              <caret line="190" column="9" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CuserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding>
+                <element signature="e#49#79#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/cuser/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cuser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/base/Cuser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CuserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/CuserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/config/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/testoci.php" />
+        <option value="$PROJECT_DIR$/config/db.php" />
+        <option value="$PROJECT_DIR$/controllers/CUSERController.php" />
+        <option value="$PROJECT_DIR$/models/CUSER.php" />
+        <option value="$PROJECT_DIR$/models/base/CUSER.php" />
+        <option value="$PROJECT_DIR$/models/CUSERQuery.php" />
+        <option value="$PROJECT_DIR$/models/CuserQuery.php" />
+        <option value="C:/php/php.ini" />
+        <option value="$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php" />
+        <option value="$PROJECT_DIR$/runtime/logs/api.log" />
+        <option value="$PROJECT_DIR$/models/sample_cuser.json" />
+        <option value="$PROJECT_DIR$/views/cuser/_detail.php" />
+        <option value="$PROJECT_DIR$/views/cuser/create.php" />
+        <option value="$PROJECT_DIR$/views/cuser/view.php" />
+        <option value="$PROJECT_DIR$/config/web.php" />
+        <option value="$PROJECT_DIR$/controllers/CuserController.php" />
+        <option value="$PROJECT_DIR$/views/cuser/_form.php" />
+        <option value="$PROJECT_DIR$/api/config/api.php" />
+        <option value="$PROJECT_DIR$/views/cuser/index.php" />
+        <option value="$PROJECT_DIR$/models/base/Cuser.php" />
+        <option value="$PROJECT_DIR$/models/Cuser.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="web.localhost" id="13607fbd-437f-4791-90d7-fd896de11c13" name="localhost" />
+      <server host="ec2-54-183-202-1.us-west-1.compute.amazonaws.com" id="bcf165a2-f5e1-4dc4-b2d1-2182e1e11892" name="ec2-54-183-202-1.us-west-1.compute.amazonaws.com" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/api" remote-root="C:/Apache24/htdocs/api" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cuser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="PHP Remote Debug.localhost">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="localhost" session_id="BRIAN3T">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="localhost" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="localhost" session_id="BRIAN3T">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Remote Debug.localhost" />
+    </list>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ccf57a1-f60c-4c3a-89d8-fecbf9ff4fed" name="Default" comment="" />
+      <created>1460267117401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1460267117401</updated>
+      <workItem from="1460267121349" duration="738000" />
+      <workItem from="1460267906531" duration="1109000" />
+      <workItem from="1460312326984" duration="617000" />
+      <workItem from="1460338153303" duration="1771000" />
+      <workItem from="1460353601996" duration="6608000" />
+      <workItem from="1460644806505" duration="814000" />
+      <workItem from="1460645688483" duration="129000" />
+      <workItem from="1460645866682" duration="12949000" />
+      <workItem from="1465259090752" duration="1357000" />
+    </task>
+    <task id="LOCAL-00001" summary="Full source">
+      <created>1465269491906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465269491906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26092000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Full source" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full source" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/web/phpinfo.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/models/base/Cuser.php</url>
+          <line>87</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8993">
+          <caret line="529" column="0" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="122" selection-start-line="42" selection-start-column="122" selection-end-line="42" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CommentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#49#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/php/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33082">
+          <caret line="1946" column="23" selection-start-line="1946" selection-start-column="23" selection-end-line="1946" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CuserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8993">
+          <caret line="529" column="0" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="122" selection-start-line="42" selection-start-column="122" selection-end-line="42" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CommentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#49#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/php/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CuserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/CuserQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4488">
+          <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/testoci.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/testoci.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/testoci.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CommentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/php/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33082">
+          <caret line="1946" column="23" selection-start-line="1946" selection-start-column="23" selection-end-line="1946" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/CuserQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/_script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/sample_cuser.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Cuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3111">
+          <caret line="190" column="9" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="e#49#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/base/Cuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CuserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/config/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

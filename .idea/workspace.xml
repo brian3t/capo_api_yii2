@@ -5,111 +5,263 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ccf57a1-f60c-4c3a-89d8-fecbf9ff4fed" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/config/api.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/config/params.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/Module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/CommentController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/CuserController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/FavoriteController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/FollowController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/GameOpponentController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/OpponentController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/PickController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/VoteController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/modules/v1/controllers/WatchController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/api/phpinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/assets/AppAsset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/commands/HelloController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/config/console.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/config/db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/config/params.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/config/web.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/controllers/CuserController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/controllers/SiteController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/mail/layouts/html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/ContactForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/Cuser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/CuserQuery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/LoginForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/base/Cuser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/models/sample_cuser.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/phpcli.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/requirements.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/runtime/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_output/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_pages/AboutPage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_pages/ContactPage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/_pages/LoginPage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/AboutCept.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/ContactCept.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/HomeCept.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/LoginCept.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/acceptance/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/bin/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/bin/yii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/bin/yii.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/config/acceptance.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/config/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/config/functional.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/config/unit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/fixtures/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/AboutCept.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/ContactCept.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/HomeCept.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/LoginCept.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/functional/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/templates/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/fixtures/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/fixtures/data/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/models/ContactFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/models/LoginFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/models/UserTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/tests/codeception/unit/templates/fixtures/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/_detail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/_pdf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/_script.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/cuser/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/layouts/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/contact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/views/site/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/assets/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/phpinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/requirements.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/testoci.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/web/testoci_local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/yii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htdocs/yii.bat" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/.htaccess" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bin/markdown.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bin/yii.bat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/config/api.php" afterPath="$PROJECT_DIR$/api/config/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php" afterPath="$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/db.php" afterPath="$PROJECT_DIR$/config/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/web.php" afterPath="$PROJECT_DIR$/config/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/markdown" afterPath="$PROJECT_DIR$/vendor/bin/markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/yii" afterPath="$PROJECT_DIR$/vendor/bin/yii" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bower/typeahead.js/test/ci" afterPath="$PROJECT_DIR$/vendor/bower/typeahead.js/test/ci" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cebe/markdown/bin/markdown" afterPath="$PROJECT_DIR$/vendor/cebe/markdown/bin/markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/README" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/compile-doxygen.sh" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/compile-doxygen.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/flush-definition-cache.php" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/flush-definition-cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-entity-file.php" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-entity-file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-standalone.php" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-standalone.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/merge-library.php" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/merge-library.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/regenerate-docs.sh" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/regenerate-docs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/tests/HTMLPurifier/Injector/RemoveSpansWithoutAttributesTest.php" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/tests/HTMLPurifier/Injector/RemoveSpansWithoutAttributesTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/Address.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/Address.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/Internet.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/Internet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/Payment.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/Payment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/PhoneNumber.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/PhoneNumber.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/Faker/Provider/ja_JP/PersonTest.php" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/test/Faker/Provider/ja_JP/PersonTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/.gitignore" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/CHANGE.md" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/CHANGE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/LICENSE.md" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/README.md" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/bower.json" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/composer.json" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/css/fileinput.css" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/css/fileinput.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/css/fileinput.min.css" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/css/fileinput.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/examples/index.html" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput.min.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_LANG.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_LANG.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_bg.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_cz.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_cz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_da.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_de.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_el.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_es.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_fa.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_fi.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_fr.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_hu.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_it.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_nl.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_pl.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_pt-BR.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_pt.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_ro.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_ru.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_sk.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_th.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_tr.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_uk.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_zh.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/js/fileinput_locale_zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/nuget/Package.nuspec" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/nuget/Package.nuspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/nuget/build.bat" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput/nuget/build.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/css/star-rating.css" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/css/star-rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/css/star-rating.min.css" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/css/star-rating.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/examples/index.html" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/js/star-rating.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/js/star-rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/js/star-rating.min.js" afterPath="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating/js/star-rating.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-export/messages/config.php" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-export/messages/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-widgets/LICENSE.md" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-widgets/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-widgets/README.md" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-widgets/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-widgets/composer.json" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-widgets/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mootensai/yii2-relation-trait/RelationTrait.php" afterPath="$PROJECT_DIR$/vendor/mootensai/yii2-relation-trait/RelationTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/DiscISAM.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/DiscISAM.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/Memcache.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/Memcache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/Memory.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/Memory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/SQLite.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/SQLite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/SQLite3.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/SQLite3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/Wincache.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/Wincache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Renderer/jpgraph.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Renderer/jpgraph.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel5.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/OLE/PPS/Root.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/OLE/PPS/Root.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/readme.txt" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/locale/pt/br/functions" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/locale/pt/br/functions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/locale/pt/functions" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/locale/pt/functions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/locale/sv/functions" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Classes/PHPExcel/locale/sv/functions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/20readexcel5.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/20readexcel5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/30template.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/30template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/31docproperties_write-xls.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/31docproperties_write-xls.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/31docproperties_write.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/31docproperties_write.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/32chartreadwrite.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/32chartreadwrite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/Excel2003XMLReader.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/Excel2003XMLReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/GnumericReader.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/GnumericReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/OOCalcReader.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/OOCalcReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/Quadratic.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/Quadratic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/Quadratic2.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/Quadratic2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/SylkReader.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/SylkReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/SylkTest.slk" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/SylkTest.slk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/XMLReader.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/XMLReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/XMLTest.xml" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/Examples/XMLTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/custom/Complex.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/custom/Complex.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/custom/complexAssert.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/custom/complexAssert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/phpunit-cc.xml" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/phpunit-cc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/phpunit.xml" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DATE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DATE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DATEDIF.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DATEDIF.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DATEVALUE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DATEVALUE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DAY.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DAY.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DAYS360.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/DAYS360.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/EDATE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/EDATE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/EOMONTH.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/EOMONTH.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/HOUR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/HOUR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/MINUTE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/MINUTE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/MONTH.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/MONTH.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/NETWORKDAYS.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/NETWORKDAYS.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/SECOND.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/SECOND.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/TIME.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/TIME.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/TIMEVALUE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/TIMEVALUE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/WEEKDAY.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/WEEKDAY.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/WEEKNUM.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/WEEKNUM.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/WORKDAY.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/WORKDAY.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/YEAR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/YEAR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/YEARFRAC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/DateTime/YEARFRAC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BESSELI.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BESSELI.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BESSELJ.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BESSELJ.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BESSELK.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BESSELK.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BESSELY.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BESSELY.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BIN2DEC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BIN2DEC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BIN2HEX.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BIN2HEX.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BIN2OCT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/BIN2OCT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/COMPLEX.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/COMPLEX.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/CONVERTUOM.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/CONVERTUOM.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/DEC2BIN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/DEC2BIN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/DEC2HEX.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/DEC2HEX.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/DEC2OCT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/DEC2OCT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/DELTA.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/DELTA.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/ERF.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/ERF.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/ERFC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/ERFC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/GESTEP.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/GESTEP.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/HEX2BIN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/HEX2BIN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/HEX2DEC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/HEX2DEC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/HEX2OCT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/HEX2OCT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMABS.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMABS.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMAGINARY.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMAGINARY.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMARGUMENT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMARGUMENT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMCONJUGATE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMCONJUGATE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMCOS.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMCOS.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMDIV.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMDIV.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMEXP.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMEXP.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMLN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMLN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMLOG10.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMLOG10.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMLOG2.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMLOG2.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMPOWER.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMPOWER.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMPRODUCT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMPRODUCT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMREAL.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMREAL.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMSIN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMSIN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMSQRT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMSQRT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMSUB.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMSUB.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMSUM.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/IMSUM.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/OCT2BIN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/OCT2BIN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/OCT2DEC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/OCT2DEC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/OCT2HEX.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Engineering/OCT2HEX.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/ACCRINT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/ACCRINT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/ACCRINTM.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/ACCRINTM.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/AMORDEGRC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/AMORDEGRC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/AMORLINC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/AMORLINC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPDAYBS.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPDAYBS.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPDAYS.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPDAYS.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPDAYSNC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPDAYSNC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPNCD.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPNCD.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPNUM.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPNUM.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPPCD.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/COUPPCD.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/CUMIPMT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/CUMIPMT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/CUMPRINC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/CUMPRINC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DB.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DB.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DDB.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DDB.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DISC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DISC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DOLLARDE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DOLLARDE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DOLLARFR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/DOLLARFR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/EFFECT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/EFFECT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/FV.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/FV.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/FVSCHEDULE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/FVSCHEDULE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/INTRATE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/INTRATE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/IPMT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/IPMT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/IRR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/IRR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/ISPMT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/ISPMT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/MIRR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/MIRR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/NOMINAL.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/NOMINAL.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/NPER.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/NPER.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/NPV.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/NPV.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/PRICE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/PRICE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/RATE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/RATE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/XIRR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Financial/XIRR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/ERROR_TYPE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/ERROR_TYPE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_BLANK.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_BLANK.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_ERR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_ERR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_ERROR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_ERROR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_EVEN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_EVEN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_LOGICAL.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_LOGICAL.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_NA.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_NA.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_NONTEXT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_NONTEXT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_NUMBER.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_NUMBER.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_ODD.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_ODD.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_TEXT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/IS_TEXT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/N.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/N.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/TYPE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Functions/TYPE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/AND.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/AND.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/IF.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/IF.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/IFERROR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/IFERROR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/NOT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/NOT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/OR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/Logical/OR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ATAN2.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ATAN2.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/CEILING.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/CEILING.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/COMBIN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/COMBIN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/EVEN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/EVEN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/FACT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/FACT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/FACTDOUBLE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/FACTDOUBLE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/FLOOR.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/FLOOR.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/GCD.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/GCD.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/INT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/INT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/LCM.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/LCM.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/LOG.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/LOG.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MDETERM.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MDETERM.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MINVERSE.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MINVERSE.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MMULT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MMULT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MOD.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MOD.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MROUND.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MROUND.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MULTINOMIAL.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/MULTINOMIAL.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ODD.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ODD.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/POWER.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/POWER.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/PRODUCT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/PRODUCT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/QUOTIENT.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/QUOTIENT.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ROMAN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ROMAN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ROUNDDOWN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ROUNDDOWN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ROUNDUP.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/ROUNDUP.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/SERIESSUM.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/SERIESSUM.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/SIGN.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/SIGN.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/SQRTPI.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/SQRTPI.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/SUMSQ.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/SUMSQ.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/TRUNC.data" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/rawTestData/Calculation/MathTrig/TRUNC.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/testDataFileIterator.php" afterPath="$PROJECT_DIR$/vendor/phpoffice/phpexcel/unitTests/testDataFileIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/vova07/yii2-console-runner-extension/composer.json" afterPath="$PROJECT_DIR$/vendor/vova07/yii2-console-runner-extension/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/yii" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/yii" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,101 +277,60 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Oracle - @localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="cuser" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="htdocs" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cuser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Cuser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding>
-                <element signature="e#30#38#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/cuser/_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cors.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3111">
-              <caret line="190" column="9" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CuserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="630">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
-                <element signature="e#49#79#0#PHP" expanded="true" />
+                <element signature="e#49#70#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/index.php">
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/cuser/index.php">
+      <file leaf-file-name="app.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime/logs/app.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cuser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/base/Cuser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CuserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/CuserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -228,8 +339,8 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/config/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="390">
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -244,27 +355,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/testoci.php" />
-        <option value="$PROJECT_DIR$/config/db.php" />
         <option value="$PROJECT_DIR$/controllers/CUSERController.php" />
         <option value="$PROJECT_DIR$/models/CUSER.php" />
         <option value="$PROJECT_DIR$/models/base/CUSER.php" />
         <option value="$PROJECT_DIR$/models/CUSERQuery.php" />
         <option value="$PROJECT_DIR$/models/CuserQuery.php" />
         <option value="C:/php/php.ini" />
-        <option value="$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php" />
-        <option value="$PROJECT_DIR$/runtime/logs/api.log" />
         <option value="$PROJECT_DIR$/models/sample_cuser.json" />
         <option value="$PROJECT_DIR$/views/cuser/_detail.php" />
         <option value="$PROJECT_DIR$/views/cuser/create.php" />
         <option value="$PROJECT_DIR$/views/cuser/view.php" />
-        <option value="$PROJECT_DIR$/config/web.php" />
         <option value="$PROJECT_DIR$/controllers/CuserController.php" />
         <option value="$PROJECT_DIR$/views/cuser/_form.php" />
-        <option value="$PROJECT_DIR$/api/config/api.php" />
         <option value="$PROJECT_DIR$/views/cuser/index.php" />
         <option value="$PROJECT_DIR$/models/base/Cuser.php" />
         <option value="$PROJECT_DIR$/models/Cuser.php" />
+        <option value="$PROJECT_DIR$/web/.htaccess" />
+        <option value="$PROJECT_DIR$/config/web.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/api/config/api.php" />
+        <option value="$PROJECT_DIR$/runtime/logs/api.log" />
+        <option value="$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php" />
+        <option value="$PROJECT_DIR$/runtime/logs/app.log" />
+        <option value="$PROJECT_DIR$/config/db.php" />
       </list>
     </option>
   </component>
@@ -274,6 +387,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
       <server host="web.localhost" id="13607fbd-437f-4791-90d7-fd896de11c13" name="localhost" />
@@ -282,14 +396,36 @@
           <mapping local-root="$PROJECT_DIR$/api" remote-root="C:/Apache24/htdocs/api" />
         </path_mappings>
       </server>
+      <server host="api.capoapi" id="7e4b069e-995b-4d7e-9aaa-36bb50398678" name="api.capoapi" port="443" />
+      <server host="web.capoapi" id="64f29e18-a9c0-466d-93e6-5090207a6afd" name="web.capoapi" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5.5 configuring" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -316,33 +452,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -352,43 +488,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -398,11 +502,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -416,43 +520,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -462,11 +534,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -476,11 +548,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -490,11 +562,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -512,11 +584,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -538,11 +610,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
+              <option name="myItemId" value="capo_api_yii2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -556,14 +628,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/usr/bin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
   </component>
   <component name="RunManager" selected="PHP Remote Debug.localhost">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -575,6 +649,7 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -588,22 +663,13 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SCRATCH_FILE_ID" value="0" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -639,6 +705,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -655,7 +734,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="localhost" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="localhost" session_id="BRIAN3T">
+    <configuration default="false" name="localhost" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="api.capoapi" session_id="BRIAN3T">
       <method />
     </configuration>
     <list size="1">
@@ -679,6 +758,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -711,17 +793,18 @@
     <option name="totallyTimeSpent" value="26092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -730,9 +813,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -767,29 +849,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php</url>
-          <line>9</line>
-          <option name="timeStamp" value="6" />
+          <line>58</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php</url>
+          <line>46</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/config/api.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php</url>
+          <line>47</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="14" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$cuser-&gt;all()" language="PHP" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8993">
-          <caret line="529" column="0" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="122" selection-start-line="42" selection-start-column="122" selection-end-line="42" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CommentController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -802,85 +903,7 @@
         <state relative-caret-position="136">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#49#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33082">
-          <caret line="1946" column="23" selection-start-line="1946" selection-start-column="23" selection-end-line="1946" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/CuserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/cuser/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/config/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8993">
-          <caret line="529" column="0" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="122" selection-start-line="42" selection-start-column="122" selection-end-line="42" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CommentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#49#79#0#PHP" expanded="true" />
+            <element signature="e#49#70#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -889,22 +912,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2499">
           <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/php/php.ini" />
     <entry file="file://$PROJECT_DIR$/controllers/CuserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,13 +945,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4488">
-          <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log" />
     <entry file="file://$PROJECT_DIR$/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1005,25 +1013,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33082">
-          <caret line="1946" column="23" selection-start-line="1946" selection-start-column="23" selection-end-line="1946" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/php/php.ini" />
     <entry file="file://$PROJECT_DIR$/web/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1069,101 +1064,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.php">
+    <entry file="file://$PROJECT_DIR$/models/Cuser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2745">
+          <caret line="190" column="9" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cuser/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/base/Cuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="480">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Cuser.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/62abd928-d825-438a-b873-79037015dcf2/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#30#38#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/cuser/_form.php">
+    <entry file="file://$PROJECT_DIR$/runtime/logs/api.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="190" column="9" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
-          <folding />
+    <entry file="dbDummy://dbtable:/fe7625f1/62abd928-d825-438a-b873-79037015dcf2/CARPOOLNOWDB.cuser">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="e#49#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/cuser/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/base/Cuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/CuserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="429">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="246" column="53" selection-start-line="246" selection-start-column="53" selection-end-line="246" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/BaseYii.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/v1/controllers/CuserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="e#49#70#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/config/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="390">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/runtime/logs/app.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding />
         </state>
       </provider>

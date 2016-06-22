@@ -1,15 +1,6 @@
 <?php
 
-$db     = [
-    'class' => 'apaoww\oci8\Oci8DbConnection',
-    'dsn' => 'oci8:dbname=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=52.8.1.171)(PORT=1521))(CONNECT_DATA=(SID=ORCL)));charset=AL32UTF8;', // Oracle
-    'username' => 'carpoolnowdb',
-    'password' => 'Duip34jitjit-',
-    'attributes' => [
-        // PDO::ATTR_STRINGIFY_FETCHES => true,
-        PDO::ATTR_CASE => PDO::CASE_LOWER,
-    ]
-];
+$db     = require(dirname(dirname(__DIR__)) . '/config/db.php');
 $params = require(__DIR__ . '/params.php');
 
 $config = [

@@ -5,3 +5,5 @@
  * Date: 8/28/15
  * Time: 4:41 PM
  */
+
+return ['ISLOCAL'=>true];

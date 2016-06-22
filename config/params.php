@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'adminEmail' => 'admin@example.com',
+    'adminEmail' => 'ngxtri@gmail.com',
+    'ISLOCAL' => true
 ];

@@ -15,7 +15,7 @@ use yii\widgets\ActiveForm;
     
     <?= $form->errorSummary($model); ?>
 
-    <?= $form->field($model, 'id', ['template' => '{input}'])->textInput(); ?>
+    <?//= $form->field($model, 'id', ['template' => '{input}'])->textInput(); ?>
 
     <?= $form->field($model, 'first_name')->textInput(['maxlength' => true, 'placeholder' => 'First Name']) ?>
 
@@ -27,6 +27,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'hashed_password')->textInput(['maxlength' => true, 'placeholder' => 'Hashed Password']) ?>
 
+    <?= $form->field($model, 'username')->textInput(['placeholder' => 'Username']) ?>
     <?= $form->field($model, 'enrolled')->textInput(['placeholder' => 'Enrolled']) ?>
 
     <div class="form-group">

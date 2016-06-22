@@ -4,6 +4,7 @@ namespace app\models;
 
 use Yii;
 use \app\models\base\Cuser as BaseCuser;
+use yii\behaviors\TimestampBehavior;
 
 /**
  * This is the model class for table "cuser".
@@ -26,5 +27,35 @@ class Cuser extends BaseCuser
                 [['email'], 'string', 'max' => 125]
             ]);
     }
+    
+    /**
+     * @inheritdoc
+     * @return type mixed
+     */
+    public function behaviors()
+    {
+        if (\Yii::$app->params['ISLOCAL']) {
+            return [
+                [
+                    'class' => TimestampBehavior::className(),
+                    'createdAtAttribute' => false,
+                    'updatedAtAttribute' => 'updated_at',
+                    'value' => new \yii\db\Expression('NOW()'),
+                ],
+            ];
 
+        } else {
+
+            return [
+                [
+                    'class' => TimestampBehavior::className(),
+                    'createdAtAttribute' => false,
+                    'updatedAtAttribute' => 'updated_at',
+                    'value' => new \yii\db\Expression('SYSDATE'),
+                ],
+            ];
+        }
+    }
+    
+    
 }

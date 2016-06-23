@@ -77,22 +77,6 @@ class Request extends \yii\db\ActiveRecord
         return $this->hasOne(\app\models\Cuser::className(), ['id' => 'cuser_id']);
     }
 
-/**
-     * @inheritdoc
-     * @return type mixed
-     */ 
-    public function behaviors()
-    {
-        return [
-            [
-                'class' => TimestampBehavior::className(),
-                'createdAtAttribute' => 'created_at',
-                'updatedAtAttribute' => 'updated_at',
-                'value' => new \yii\db\Expression('NOW()'),
-            ],
-        ];
-    }
-
     /**
      * @inheritdoc
      * @return \app\models\RequestQuery the active query used by this AR class.

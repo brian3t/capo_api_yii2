@@ -50,7 +50,9 @@ class CuserController extends ActiveController
                 if(property_exists($entityBody,'commuter_data'))
                 {
                     $cuser->commuter_data=$entityBody->commuter_data;
-                    $cuser->save();
+                    if (!$cuser->save()){
+                        \Yii::error("Failed saving cuser " . json_encode($cuser));
+                    };
                 }
                 echo '{"status":"successful", "id":"' . $cuser->id . '"}';
                 \Yii::$app->response->setStatusCode(200);

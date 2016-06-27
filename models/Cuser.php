@@ -22,7 +22,7 @@ class Cuser extends BaseCuser
                 [['commuter', 'enrolled'], 'number'],
                 [['id', 'first_name', 'status_description', 'username'], 'string', 'max' => 80],
                 [['status_code'], 'string', 'max' => 20],
-                [['created_at', 'updated_at'], 'string', 'max' => 6],
+                [['created_at', 'updated_at'], 'string'],
                 [['hashed_password'], 'string', 'max' => 28],
                 [['email'], 'string', 'max' => 125],
                 [['commuter_data'], 'string', 'max' => 8000]

@@ -3,9 +3,9 @@
 namespace app\models;
 
 /**
- * This is the ActiveQuery class for [[CUSER]].
+ * This is the ActiveQuery class for [[Cuser]].
  *
- * @see CUSER
+ * @see Cuser
  */
 class CuserQuery extends \yii\db\ActiveQuery
 {

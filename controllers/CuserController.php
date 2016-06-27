@@ -49,8 +49,12 @@ class CuserController extends Controller
     public function actionView($id)
     {
         $model = $this->findModel($id);
+        $providerRequest = new \yii\data\ArrayDataProvider([
+            'allModels' => $model->requests,
+        ]);
         return $this->render('view', [
             'model' => $this->findModel($id),
+            'providerRequest' => $providerRequest,
         ]);
     }
 
@@ -115,6 +119,26 @@ class CuserController extends Controller
     {
         if (($model = Cuser::findOne($id)) !== null) {
             return $model;
+        } else {
+            throw new NotFoundHttpException('The requested page does not exist.');
+        }
+    }
+    
+    /**
+    * Action to load a tabular form grid
+    * for Request
+    * @author Yohanes Candrajaya <moo.tensai@gmail.com>
+    * @author Jiwantoro Ndaru <jiwanndaru@gmail.com>
+    *
+    * @return mixed
+    */
+    public function actionAddRequest()
+    {
+        if (Yii::$app->request->isAjax) {
+            $row = Yii::$app->request->post('Request');
+            if((Yii::$app->request->post('isNewRecord') && Yii::$app->request->post('action') == 'load' && empty($row)) || Yii::$app->request->post('action') == 'add')
+                $row[] = [];
+            return $this->renderAjax('_formRequest', ['row' => $row]);
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
         }

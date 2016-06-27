@@ -24,7 +24,8 @@ class Cuser extends BaseCuser
                 [['status_code'], 'string', 'max' => 20],
                 [['created_at', 'updated_at'], 'string', 'max' => 6],
                 [['hashed_password'], 'string', 'max' => 28],
-                [['email'], 'string', 'max' => 125]
+                [['email'], 'string', 'max' => 125],
+                [['commuter_data'], 'string', 'max' => 8000]
             ]);
     }
     

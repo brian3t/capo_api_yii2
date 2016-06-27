@@ -15,7 +15,7 @@ use yii\widgets\ActiveForm;
     
     <?= $form->errorSummary($model); ?>
 
-    <?//= $form->field($model, 'id', ['template' => '{input}'])->textInput(); ?>
+    <?php //= $form->field($model, 'id', ['template' => '{input}'])->textInput(); ?>
 
     <?= $form->field($model, 'first_name')->textInput(['maxlength' => true, 'placeholder' => 'First Name']) ?>
 
@@ -29,6 +29,12 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'username')->textInput(['placeholder' => 'Username']) ?>
     <?= $form->field($model, 'enrolled')->textInput(['placeholder' => 'Enrolled']) ?>
+
+    <?= $form->field($model, 'email')->textInput(['maxlength' => true, 'placeholder' => 'Email']) ?>
+
+    <?= $form->field($model, 'username')->textInput(['maxlength' => true, 'placeholder' => 'Username']) ?>
+
+    <?= $form->field($model, 'commuter_data')->textInput(['maxlength' => true, 'placeholder' => 'Commuter Data']) ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

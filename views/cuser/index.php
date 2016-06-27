@@ -32,6 +32,9 @@ $this->registerJs($search);
         'commuter',
         'hashed_password',
         'enrolled',
+        'email:email',
+        'username',
+        'commuter_data',
         [
             'class' => 'yii\grid\ActionColumn',
         ],

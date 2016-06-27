@@ -41,11 +41,46 @@ $this->params['breadcrumbs'][] = $this->title;
         'commuter',
         'hashed_password',
         'enrolled',
+        'email:email',
+        'username',
+        'commuter_data',
     ];
     echo DetailView::widget([
         'model' => $model,
         'attributes' => $gridColumn
     ]); 
+?>
+    </div>
+    
+    <div class="row">
+<?php
+if($providerRequest->totalCount){
+    $gridColumnRequest = [
+        ['class' => 'yii\grid\SerialColumn'],
+            ['attribute' => 'id', 'hidden' => true],
+            [
+                'attribute' => 'cuser.id',
+                'label' => 'Cuser'
+        ],
+            'status',
+            'dropoff_full_address',
+            'dropoff_lat',
+            'dropoff_lng',
+            'pickup_full_address',
+            'pickup_lat',
+            'pickup_lng',
+    ];
+    echo Gridview::widget([
+        'dataProvider' => $providerRequest,
+        'pjax' => true,
+        'pjaxSettings' => ['options' => ['id' => 'kv-pjax-container-request']],
+        'panel' => [
+        'type' => GridView::TYPE_PRIMARY,
+        'heading' => '<span class="glyphicon glyphicon-book"></span> ' . Html::encode('Request'.' '. $this->title),
+        ],
+        'columns' => $gridColumnRequest
+    ]);
+}
 ?>
     </div>
 </div>

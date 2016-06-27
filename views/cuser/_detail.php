@@ -26,6 +26,9 @@ use kartik\grid\GridView;
         'commuter',
         'hashed_password',
         'enrolled',
+        'email:email',
+        'username',
+        'commuter_data',
     ];
     echo DetailView::widget([
         'model' => $model,

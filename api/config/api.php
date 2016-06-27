@@ -38,8 +38,13 @@ $config = [
                     'pluralize' => false,
                     'tokens' => [
                         '{id}' => '<id:\\w+>'
-                    ]
+                    ],
+                    'extraPatterns' => [
+                        'GET query' => 'query',//todob this is cuser query
+                    ],
+
                 ],
+
             ]
         ],
         'db' => $db,

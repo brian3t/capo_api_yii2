@@ -53,11 +53,11 @@ $this->registerJs($search);
         'status',
         [
             'attribute' => 'created_at',
-            'format' => 'datetime'
+            // 'format' => 'datetime'
         ],
         [
             'attribute' => 'updated_at',
-            'format' => 'datetime'
+            // 'format' => 'datetime'
         ],
         
         [

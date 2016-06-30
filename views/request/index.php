@@ -40,11 +40,11 @@ $this->registerJs($search);
         'status',
         [
             'attribute'=> 'created_at',
-            'format'=>['datetime']
+            // 'format'=>['datetime']
         ],
         [
             'attribute'=> 'updated_at',
-            'format'=>['datetime']
+            // 'format'=>['datetime']
         ],
         'dropoff_full_address',
         'dropoff_lat',

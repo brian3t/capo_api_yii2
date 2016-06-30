@@ -3,13 +3,13 @@
 namespace app\models;
 
 use Yii;
-use \app\models\base\Request as BaseRequest;
+use \app\models\base\Offer as BaseOffer;
 use yii\behaviors\TimestampBehavior;
 
 /**
- * This is the model class for table "request".
+ * This is the model class for table "offer".
  */
-class Request extends BaseRequest
+class Offer extends BaseOffer
 {
     /**
      * @inheritdoc
@@ -18,17 +18,15 @@ class Request extends BaseRequest
     {
         return array_replace_recursive(parent::rules(),
 	    [
-            [['cuser_id', 'dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'required'],
-            [['status'], 'string'],
+            [['cuser_id', 'request_cuser'], 'required'],
             [['created_at', 'updated_at'], 'safe'],
-            [['dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'number'],
-            [['cuser_id'], 'string', 'max' => 36],
-            [['dropoff_full_address', 'pickup_full_address'], 'string', 'max' => 400]
+            [['status'], 'string'],
+            [['cuser_id', 'request_cuser'], 'string', 'max' => 26]
         ]);
     }
     /**
      * @inheritdoc
-     * @return type mixed
+     * @return mixed
      */
     public function behaviors()
     {
@@ -54,6 +52,5 @@ class Request extends BaseRequest
             ];
         }
     }
-
 
 }

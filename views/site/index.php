@@ -15,6 +15,9 @@ $this->title = 'Carpoolnow API dataview';
             <div class="col-lg-4">
                 <a href="/request">Ride requests</a>
             </div>
+            <div class="col-lg-4">
+                <a href="/offer">Offers for ride requests</a>
+            </div>
         </div>
 
     </div>

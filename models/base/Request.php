@@ -9,7 +9,6 @@ use mootensai\behaviors\UUIDBehavior;
 /**
  * This is the base model class for table "request".
  *
- * @property string $id
  * @property string $cuser_id
  * @property string $status
  * @property string $created_at
@@ -34,11 +33,11 @@ class Request extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'cuser_id', 'dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'required'],
+            [['cuser_id', 'dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'required'],
             [['status'], 'string'],
             [['created_at', 'updated_at'], 'safe'],
             [['dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'number'],
-            [['id', 'cuser_id'], 'string', 'max' => 36],
+            [['cuser_id'], 'string', 'max' => 36],
             [['dropoff_full_address', 'pickup_full_address'], 'string', 'max' => 400]
         ];
     }
@@ -57,7 +56,6 @@ class Request extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
             'cuser_id' => 'Cuser ID',
             'status' => 'Status',
             'dropoff_full_address' => 'Dropoff Full Address',
@@ -84,14 +82,6 @@ class Request extends \yii\db\ActiveRecord
     public static function find()
     {
         return new \app\models\RequestQuery(get_called_class());
-    }
-
-    public function beforeValidate()
-    {
-        if (empty($this->id)) {
-            $this->id = substr(uniqid(), 0, 13) . substr(uniqid(), 0, 13);
-        }
-        return parent::beforeValidate(); //
     }
 
 }

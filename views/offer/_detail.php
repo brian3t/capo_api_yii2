@@ -5,10 +5,10 @@ use yii\widgets\DetailView;
 use kartik\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Request */
+/* @var $model app\models\Offer */
 
 ?>
-<div class="request-view">
+<div class="offer-view">
 
     <div class="row">
         <div class="col-sm-9">
@@ -23,13 +23,13 @@ use kartik\grid\GridView;
             'attribute' => 'cuser.id',
             'label' => 'Cuser',
         ],
+        [
+            'attribute' => 'request.cuser_id',
+            'label' => 'Request Cuser',
+        ],
+        'created_at',
+        'updated_at',
         'status',
-        'dropoff_full_address',
-        'dropoff_lat',
-        'dropoff_lng',
-        'pickup_full_address',
-        'pickup_lat',
-        'pickup_lng',
     ];
     echo DetailView::widget([
         'model' => $model,

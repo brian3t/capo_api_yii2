@@ -5,17 +5,17 @@ use yii\widgets\DetailView;
 use kartik\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Request */
+/* @var $model app\models\Offer */
 
 $this->title = $model->cuser_id;
-$this->params['breadcrumbs'][] = ['label' => 'Request', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Offer', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="request-view">
+<div class="offer-view">
 
     <div class="row">
         <div class="col-sm-9">
-            <h2><?= 'Request'.' '. Html::encode($this->title) ?></h2>
+            <h2><?= 'Offer'.' '. Html::encode($this->title) ?></h2>
         </div>
         <div class="col-sm-3" style="margin-top: 15px">
                         
@@ -37,14 +37,16 @@ $this->params['breadcrumbs'][] = $this->title;
         [
             'attribute' => 'cuser.id',
             'label' => 'Cuser',
+            'value'=>$model->cuser->username
         ],
+        [
+            'attribute' => 'request_cuser',
+            'label' => 'Request Cuser',
+            'value'=>$model->requestCuser->cuser->username
+        ],
+        'created_at',
+        'updated_at',
         'status',
-        'dropoff_full_address',
-        'dropoff_lat',
-        'dropoff_lng',
-        'pickup_full_address',
-        'pickup_lat',
-        'pickup_lng',
     ];
     echo DetailView::widget([
         'model' => $model,

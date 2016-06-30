@@ -11,3 +11,4 @@ config/params.php
 vendor/
 web/index.php
 api/index.php
+web/assets/

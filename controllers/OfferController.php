@@ -3,16 +3,16 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\Request;
+use app\models\Offer;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * RequestController implements the CRUD actions for Request model.
+ * OfferController implements the CRUD actions for Offer model.
  */
-class RequestController extends Controller
+class OfferController extends Controller
 {
     public function behaviors()
     {
@@ -27,13 +27,13 @@ class RequestController extends Controller
     }
 
     /**
-     * Lists all Request models.
+     * Lists all Offer models.
      * @return mixed
      */
     public function actionIndex()
     {
         $dataProvider = new ActiveDataProvider([
-            'query' => Request::find(),
+            'query' => Offer::find(),
         ]);
 
         return $this->render('index', [
@@ -42,7 +42,7 @@ class RequestController extends Controller
     }
 
     /**
-     * Displays a single Request model.
+     * Displays a single Offer model.
      * @param string $id
      * @return mixed
      */
@@ -55,13 +55,13 @@ class RequestController extends Controller
     }
 
     /**
-     * Creates a new Request model.
+     * Creates a new Offer model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Request();
+        $model = new Offer();
 
         if ($model->loadAll(Yii::$app->request->post()) && $model->saveAll()) {
             return $this->redirect(['view', 'id' => $model->cuser_id]);
@@ -73,7 +73,7 @@ class RequestController extends Controller
     }
 
     /**
-     * Updates an existing Request model.
+     * Updates an existing Offer model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param string $id
      * @return mixed
@@ -92,7 +92,7 @@ class RequestController extends Controller
     }
 
     /**
-     * Deletes an existing Request model.
+     * Deletes an existing Offer model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param string $id
      * @return mixed
@@ -105,15 +105,15 @@ class RequestController extends Controller
     }
     
     /**
-     * Finds the Request model based on its primary key value.
+     * Finds the Offer model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param string $id
-     * @return Request the loaded model
+     * @return Offer the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Request::findOne($id)) !== null) {
+        if (($model = Offer::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

@@ -6,7 +6,7 @@ use kartik\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Request';
+$this->title = 'Offer';
 $this->params['breadcrumbs'][] = $this->title;
 $search = "$('.search-button').click(function(){
 	$('.search-form').toggle(1000);
@@ -14,19 +14,19 @@ $search = "$('.search-button').click(function(){
 });";
 $this->registerJs($search);
 ?>
-<div class="request-index">
+<div class="offer-index">
     
     <h1><?= Html::encode($this->title) ?></h1>
     
     <p>
-        <?= Html::a('Create Request', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Offer', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?php
     $gridColumn = [
         ['class' => 'yii\grid\SerialColumn'],
         [
-            // 'attribute' => 'cuser_id',
-            'label' => 'Cuser',
+            'attribute' => 'cuser_id',
+            'label' => 'Driver',
             'value' => function ($model) {
                 return $model->cuser->username;
             },
@@ -35,23 +35,31 @@ $this->registerJs($search);
             'filterWidgetOptions' => [
                 'pluginOptions' => ['allowClear' => true],
             ],
-            'filterInputOptions' => ['placeholder' => 'Cuser', 'id' => 'grid--cuser_id']
+            'filterInputOptions' => ['placeholder' => 'Cuser', 'id' => 'grid--cuser']
+        ],
+        [
+            'attribute' => 'request_cuser',
+            'label' => 'Rider',
+            'value' => function ($model) {
+                return $model->requestCuser->cuser->username;
+            },
+            'filterType' => GridView::FILTER_SELECT2,
+            'filter' => \yii\helpers\ArrayHelper::map(\app\models\Request::find()->asArray()->all(), 'cuser_id', 'cuser_id'),
+            'filterWidgetOptions' => [
+                'pluginOptions' => ['allowClear' => true],
+            ],
+            'filterInputOptions' => ['placeholder' => 'Request', 'id' => 'grid--request_cuser']
         ],
         'status',
         [
-            'attribute'=> 'created_at',
-            'format'=>['datetime']
+            'attribute' => 'created_at',
+            'format' => 'datetime'
         ],
         [
-            'attribute'=> 'updated_at',
-            'format'=>['datetime']
+            'attribute' => 'updated_at',
+            'format' => 'datetime'
         ],
-        'dropoff_full_address',
-        'dropoff_lat',
-        'dropoff_lng',
-        'pickup_full_address',
-        'pickup_lat',
-        'pickup_lng',
+        
         [
             'class' => 'yii\grid\ActionColumn',
         ],
@@ -61,7 +69,7 @@ $this->registerJs($search);
         'dataProvider' => $dataProvider,
         'columns' => $gridColumn,
         'pjax' => true,
-        'pjaxSettings' => ['options' => ['id' => 'kv-pjax-container-request']],
+        'pjaxSettings' => ['options' => ['id' => 'kv-pjax-container-offer']],
         'panel' => [
             'type' => GridView::TYPE_PRIMARY,
             'heading' => '<span class="glyphicon glyphicon-book"></span>  ' . Html::encode($this->title),

@@ -21,13 +21,13 @@ echo TabularForm::widget([
         'type' => TabularForm::INPUT_TEXT,
     ],
     'attributes' => [
-        "id" => ['type' => TabularForm::INPUT_HIDDEN, 'columnOptions'=>['hidden'=>true]],
+        "id" => ['type' => TabularForm::INPUT_HIDDEN, 'columnOptions' => ['hidden' => true]],
         'status' => ['type' => TabularForm::INPUT_DROPDOWN_LIST,
-                    'options' => [
-                        'items' => [ 'pending' => 'Pending', 'cancelled' => 'Cancelled', 'fulfilled' => 'Fulfilled', 'timeout' => 'Timeout', ],
-                        'columnOptions => ['width' => '185px'],
-                        'options' => ['placeholder' => 'Choose Status'],
-                    ]
+            'options' => [
+                'items' => ['pending' => 'Pending', 'cancelled' => 'Cancelled', 'fulfilled' => 'Fulfilled', 'timeout' => 'Timeout',],
+                'columnOptions' => ['width' => '185px'],
+                'options' => ['placeholder' => 'Choose Status'],
+            ]
         ],
         'dropoff_full_address' => ['type' => TabularForm::INPUT_TEXT],
         'dropoff_lat' => ['type' => TabularForm::INPUT_TEXT],
@@ -38,8 +38,8 @@ echo TabularForm::widget([
         'del' => [
             'type' => 'raw',
             'label' => '',
-            'value' => function($model, $key) {
-                return Html::a('<i class="glyphicon glyphicon-trash"></i>', '#', ['title' =>  'Delete', 'onClick' => 'delRowRequest(' . $key . '); return false;', 'id' => 'request-del-btn']);
+            'value' => function ($model, $key) {
+                return Html::a(' < i class="glyphicon glyphicon-trash" ></i > ', '#', ['title' => 'Delete', 'onClick' => 'delRowRequest(' . $key . '); return false;', 'id' => 'request-del-btn']);
             },
         ],
     ],

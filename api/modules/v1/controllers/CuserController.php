@@ -1,6 +1,7 @@
 <?php
 namespace app\api\modules\v1\controllers;
 
+use app\api\base\controllers\BaseActiveController;
 use app\models\Cuser;
 use yii\base\Exception;
 use yii\rest\ActiveController;
@@ -8,7 +9,7 @@ use yii\helpers\ArrayHelper;
 use yii\filters\Cors;
 use yii\web\HttpException;
 
-class CuserController extends ActiveController
+class CuserController extends BaseActiveController
 {
     public $modelClass='app\models\Cuser';
 

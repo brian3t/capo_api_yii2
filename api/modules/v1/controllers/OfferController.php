@@ -41,12 +41,19 @@ class OfferController extends BaseActiveController
         /* @var $modelClass Offer */
         $modelClass = $this->modelClass;
 
-        $offers = $modelClass::find()->innerJoinWith('cuser')->where(\Yii::$app->request->queryParams)->addSelect('*,cuser.commuter_data, cuser.first_name')->asArray()->all();
+        $offers = $modelClass::find()->innerJoinWith('cuser')->where(\Yii::$app->request->queryParams)->addSelect('offer.cuser_id, offer.request_cuser, offer.created_at,
+        offer.updated_at, offer.status,cuser.commuter_data, cuser.first_name')->asArray()->all();
         /** @var array $offers */
         foreach ($offers as &$offer) {
             $commuter_data = json_decode($offer['commuter_data'], true);
-            $name = $commuter_data['commuterName']??$offer['first_name'];
-            $phone = $commuter_data['hphone']??'';
+            $name = $offer['first_name'];
+            if (isset($commuter_data['commuterName'])){
+                $name = $commuter_data['commuterName'];
+            }
+            $phone = '';
+            if (isset($commuter_data['hphone'])){
+                $phone = $commuter_data['hphone'];
+            }
             $offer['name'] = $name;
             $offer['phone'] = $phone;
             // $offer = ArrayHelper::getColumn($offer, ['cuser_id', 'created_at', 'updated_at', 'status']);

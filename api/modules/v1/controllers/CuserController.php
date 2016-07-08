@@ -101,8 +101,14 @@ class CuserController extends BaseActiveController
         foreach ($cusers as $cuser)
         {
             $commuter_data = json_decode($cuser['commuter_data'], true);
-            $name = $commuter_data['commuterName']??$cuser['first_name'];
-            $phone = $commuter_data['hphone']??'';
+            $name = $cuser['first_name'];
+            if (isset($commuter_data['commuterName'])){
+                $name = $commuter_data['commuterName'];
+            }
+            $phone = '';
+            if (isset($commuter_data['hphone'])){
+                $phone = $commuter_data['hphone'];
+            }
             $result[$cuser['id']] = [$name, $phone];
         }
         echo json_encode($result);

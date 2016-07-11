@@ -15,7 +15,7 @@ use yii\widgets\ActiveForm;
     
     <?= $form->errorSummary($model); ?>
 
-    <?= $form->field($model, 'cuser_id')->widget(\kartik\widgets\Select2::classname(), [
+    <?= $form->field($model, 'cuser_id')->label('Driver')->widget(\kartik\widgets\Select2::classname(), [
         'data' => \yii\helpers\ArrayHelper::map(\app\models\Cuser::find()->orderBy('id')->asArray()->all(), 'id', 'username'),
         'options' => ['placeholder' => 'Choose Cuser'],
         'pluginOptions' => [
@@ -23,8 +23,8 @@ use yii\widgets\ActiveForm;
         ],
     ]) ?>
 
-    <?= $form->field($model, 'request_cuser')->widget(\kartik\widgets\Select2::classname(), [
-        'data' => \yii\helpers\ArrayHelper::map(\app\models\Request::find()->orderBy('cuser_id')->asArray()->all(), 'cuser_id', 'cuser_id'),
+    <?= $form->field($model, 'request_cuser')->label('Rider')->widget(\kartik\widgets\Select2::classname(), [
+        'data' => \yii\helpers\ArrayHelper::map(\app\models\Request::find()->with('cuser')->orderBy('cuser_id')->asArray()->all(), 'cuser_id', 'cuser.username'),
         'options' => ['placeholder' => 'Choose Request'],
         'pluginOptions' => [
             'allowClear' => true

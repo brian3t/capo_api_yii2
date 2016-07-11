@@ -9,6 +9,9 @@ use yii\rest\ActiveController;
 use yii\helpers\ArrayHelper;
 use yii\filters\Cors;
 use yii\web\HttpException;
+use yii\web\ServerErrorHttpException;
+use yii\db\ActiveRecord;
+use Yii;
 
 class RequestController extends BaseActiveController
 {
@@ -18,6 +21,7 @@ class RequestController extends BaseActiveController
     {
         $actions = parent::actions();
         unset($actions['create']);
+        unset($actions['update']);
         return $actions;
     }
 
@@ -28,7 +32,7 @@ class RequestController extends BaseActiveController
                 'class' => Cors::className(),
                 'cors' => [
                     'Origin' => ['*'],
-                    'Access-Control-Request-Methods' => ['GET', 'POST', 'OPTIONS', 'DELETE', 'PUT'],
+                    'Access-Control-Request-Methods' => ['GET', 'POST', 'OPTIONS', 'DELETE', 'PUT', 'PATCH'],
                     'Access-Control-Request-Headers' => ['Content-Type']
                 ],
             ],
@@ -74,6 +78,39 @@ class RequestController extends BaseActiveController
             \Yii::$app->response->setStatusCode(400);
             return;
         }
+    }
+
+    /**
+     * Updates an existing model.
+     * @param string $id the primary key of the model.
+     * @return \yii\db\ActiveRecordInterface the model being updated
+     * @throws ServerErrorHttpException if there is any error when updating the model
+     */
+    public function actionUpdate($id){
+        /* @var $model ActiveRecord */
+        $model = Request::find()->where(['cuser_id'=>$id])->one();
+        //try creating if not exists
+        if (is_null($model)){
+            $model = new Request();
+            $model->load(Yii::$app->getRequest()->getBodyParams(), '');
+            if ($model->save() === false && !$model->hasErrors()) {
+                throw new ServerErrorHttpException('Failed to create new request.');
+            }
+            return $model;
+        }
+
+        //updating
+        if ($this->hasProperty('checkAccess') && $this->checkAccess) {
+            call_user_func($this->checkAccess, $this->id, $model);
+        }
+
+//        $model->scenario = $this->scenario;
+        $model->load(Yii::$app->getRequest()->getBodyParams(), '');
+        if ($model->save() === false && !$model->hasErrors()) {
+            throw new ServerErrorHttpException('Failed to update the object for unknown reason.');
+        }
+
+        return $model;
     }
 
 

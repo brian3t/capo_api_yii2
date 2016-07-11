@@ -27,7 +27,7 @@ class CuserController extends BaseActiveController
                 'class'=>Cors::className(),
                 'cors'=>[
                     'Origin'=>['*'],
-                    'Access-Control-Request-Methods'=>['GET','POST','OPTIONS','DELETE','PUT'],
+                    'Access-Control-Request-Methods'=>['GET','POST','OPTIONS','DELETE','PUT','PATCH'],
                     'Access-Control-Request-Headers'=>['Content-Type']
                 ],
             ],
@@ -51,7 +51,8 @@ class CuserController extends BaseActiveController
                 if(property_exists($entityBody,'commuter_data'))
                 {
                     $cuser->commuter_data=$entityBody->commuter_data;
-                    if (!$cuser->save()){
+                    if(!$cuser->save())
+                    {
                         \Yii::error("Failed saving cuser " . json_encode($cuser));
                     };
                 }
@@ -97,19 +98,21 @@ class CuserController extends BaseActiveController
         }
         //data is array of cuser ids
         $cusers=Cuser::find()->where(['id'=>$data])->asArray()->all();
-        $result = [];
+        $result=[];
         foreach ($cusers as $cuser)
         {
-            $commuter_data = json_decode($cuser['commuter_data'], true);
-            $name = $cuser['first_name'];
-            if (isset($commuter_data['commuterName'])){
-                $name = $commuter_data['commuterName'];
+            $commuter_data=json_decode($cuser['commuter_data'],true);
+            $name=$cuser['first_name'];
+            if(isset($commuter_data['commuterName']))
+            {
+                $name=$commuter_data['commuterName'];
             }
-            $phone = '';
-            if (isset($commuter_data['hphone'])){
-                $phone = $commuter_data['hphone'];
+            $phone='';
+            if(isset($commuter_data['hphone']))
+            {
+                $phone=$commuter_data['hphone'];
             }
-            $result[$cuser['id']] = [$name, $phone];
+            $result[$cuser['id']]=[$name,$phone];
         }
         echo json_encode($result);
         return;

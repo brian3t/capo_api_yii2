@@ -29,7 +29,7 @@ class OfferController extends BaseActiveController
                 'class' => Cors::className(),
                 'cors' => [
                     'Origin' => ['*'],
-                    'Access-Control-Request-Methods' => ['GET', 'POST', 'OPTIONS', 'DELETE', 'PUT'],
+                    'Access-Control-Request-Methods' => ['GET', 'POST', 'OPTIONS', 'DELETE', 'PUT', 'PATCH'],
                     'Access-Control-Request-Headers' => ['Content-Type']
                 ],
             ],

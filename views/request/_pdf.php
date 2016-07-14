@@ -7,7 +7,7 @@ use kartik\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Request */
 
-$this->title = $model->id;
+$this->title = $model->cuser_id;
 $this->params['breadcrumbs'][] = ['label' => 'Request', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -22,7 +22,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="row">
 <?php 
     $gridColumn = [
-        ['attribute' => 'id', 'hidden' => true],
         [
                 'attribute' => 'cuser.id',
                 'label' => 'Cuser'
@@ -39,6 +38,33 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => $gridColumn
     ]); 
+?>
+    </div>
+    
+    <div class="row">
+<?php
+    $gridColumnOffer = [
+        ['class' => 'yii\grid\SerialColumn'],
+        [
+                'attribute' => 'cuser.id',
+                'label' => 'Cuser'
+        ],
+        [
+                'attribute' => 'request.cuser_id',
+                'label' => 'Request Cuser'
+        ],
+        'status',
+    ];
+    echo Gridview::widget([
+        'dataProvider' => $providerOffer,
+        'pjax' => true,
+        'pjaxSettings' => ['options' => ['id' => 'kv-pjax-container-offer']],
+        'panel' => [
+            'type' => GridView::TYPE_PRIMARY,
+            'heading' => Html::encode('Offer'.' '. $this->title),
+        ],
+        'columns' => $gridColumnOffer
+    ]);
 ?>
     </div>
 </div>

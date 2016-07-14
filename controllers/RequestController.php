@@ -49,8 +49,12 @@ class RequestController extends Controller
     public function actionView($id)
     {
         $model = $this->findModel($id);
+        $providerOffer = new \yii\data\ArrayDataProvider([
+            'allModels' => $model->offers,
+        ]);
         return $this->render('view', [
             'model' => $this->findModel($id),
+            'providerOffer' => $providerOffer,
         ]);
     }
 
@@ -115,6 +119,26 @@ class RequestController extends Controller
     {
         if (($model = Request::findOne($id)) !== null) {
             return $model;
+        } else {
+            throw new NotFoundHttpException('The requested page does not exist.');
+        }
+    }
+    
+    /**
+    * Action to load a tabular form grid
+    * for Offer
+    * @author Yohanes Candrajaya <moo.tensai@gmail.com>
+    * @author Jiwantoro Ndaru <jiwanndaru@gmail.com>
+    *
+    * @return mixed
+    */
+    public function actionAddOffer()
+    {
+        if (Yii::$app->request->isAjax) {
+            $row = Yii::$app->request->post('Offer');
+            if((Yii::$app->request->post('isNewRecord') && Yii::$app->request->post('action') == 'load' && empty($row)) || Yii::$app->request->post('action') == 'add')
+                $row[] = [];
+            return $this->renderAjax('_formOffer', ['row' => $row]);
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
         }

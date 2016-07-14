@@ -20,6 +20,7 @@ use mootensai\behaviors\UUIDBehavior;
  * @property string $pickup_lat
  * @property string $pickup_lng
  *
+ * @property \app\models\Offer[] $offers
  * @property \app\models\Cuser $cuser
  */
 class Request extends \yii\db\ActiveRecord
@@ -70,9 +71,37 @@ class Request extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
+    public function getOffers()
+    {
+        return $this->hasMany(\app\models\Offer::className(), ['request_cuser' => 'cuser_id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
     public function getCuser()
     {
         return $this->hasOne(\app\models\Cuser::className(), ['id' => 'cuser_id']);
+    }
+
+/**
+     * @inheritdoc
+     * @return type mixed
+     */ 
+    public function behaviors()
+    {
+        return [
+            [
+                'class' => TimestampBehavior::className(),
+                'createdAtAttribute' => 'created_at',
+                'updatedAtAttribute' => 'updated_at',
+                'value' => new \yii\db\Expression('NOW()'),
+            ],
+            [
+                'class' => UUIDBehavior::className(),
+                'column' => 'id',
+            ],
+        ];
     }
 
     /**
@@ -83,5 +112,4 @@ class Request extends \yii\db\ActiveRecord
     {
         return new \app\models\RequestQuery(get_called_class());
     }
-
 }

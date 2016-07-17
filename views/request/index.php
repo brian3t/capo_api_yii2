@@ -40,7 +40,7 @@ $this->registerJs($search);
                 'attribute' => 'cuser_id',
                 'label' => 'Cuser',
                 'value' => function($model){
-                    return $model->cuser->id;
+                    return $model->cuser->username_and_id;
                 },
                 'filterType' => GridView::FILTER_SELECT2,
                 'filter' => \yii\helpers\ArrayHelper::map(\app\models\Cuser::find()->asArray()->all(), 'id', 'id'),

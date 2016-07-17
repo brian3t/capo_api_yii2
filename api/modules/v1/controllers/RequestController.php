@@ -113,5 +113,4 @@ class RequestController extends BaseActiveController
         return $model;
     }
 
-
 }

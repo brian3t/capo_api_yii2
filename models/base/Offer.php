@@ -16,7 +16,7 @@ use mootensai\behaviors\UUIDBehavior;
  * @property string $updated_at
  * @property string $status
  *
- * @property \app\models\Request $requestCuser
+ * @property \app\models\Cuser $requestCuser
  * @property \app\models\Cuser $cuser
  */
 class Offer extends \yii\db\ActiveRecord
@@ -62,7 +62,7 @@ class Offer extends \yii\db\ActiveRecord
      */
     public function getRequestCuser()
     {
-        return $this->hasOne(\app\models\Request::className(), ['cuser_id' => 'request_cuser']);
+        return $this->hasOne(\app\models\Cuser::className(), ['id' => 'request_cuser']);
     }
 
     /**

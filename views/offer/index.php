@@ -44,7 +44,7 @@ $this->registerJs($search);
             'label'=>'Rider',
             'value'=>function ($model)
             {
-                return $model->requestCuser->cuser->username;
+                return $model->requestCuser->username_and_id;
             },
             'filterType'=>GridView::FILTER_SELECT2,
             'filter'=>\yii\helpers\ArrayHelper::map(\app\models\Request::find()->asArray()->all(),'cuser_id','cuser_id'),

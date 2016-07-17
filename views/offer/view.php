@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div class="row">
         <div class="col-sm-9">
-            <h2><?= 'Offer'.' '. Html::encode($this->title) ?></h2>
+            <h2><?= 'Offer from'.' '. Html::encode($model->cuser->getUsername_and_id()) ?></h2>
         </div>
         <div class="col-sm-3" style="margin-top: 15px">
                         
@@ -36,13 +36,13 @@ $this->params['breadcrumbs'][] = $this->title;
     $gridColumn = [
         [
             'attribute' => 'cuser.id',
-            'label' => 'Cuser',
+            'label' => 'Driver',
             'value'=>$model->cuser->username
         ],
         [
             'attribute' => 'request_cuser',
-            'label' => 'Request Cuser',
-            'value'=>$model->requestCuser->cuser->username
+            'label' => 'Rider',
+            'value'=>$model->requestCuser->getUsername_and_id()
         ],
         'created_at',
         'updated_at',

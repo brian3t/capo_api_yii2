@@ -28,7 +28,7 @@ class Request extends BaseRequest
     }
     /**
      * @inheritdoc
-     * @return type mixed
+     * @return array mixed
      */
     public function behaviors()
     {

@@ -26,7 +26,7 @@ use mootensai\behaviors\UUIDBehavior;
 class Request extends \yii\db\ActiveRecord
 {
 
-    use \mootensai\relation\RelationTrait;
+//    use \mootensai\relation\RelationTrait;
 
     /**
      * @inheritdoc

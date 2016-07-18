@@ -67,7 +67,7 @@ class RequestController extends Controller
     {
         $model = new Request();
 
-        if ($model->loadAll(Yii::$app->request->post()) && $model->saveAll()) {
+        if ($model->loadAll(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->cuser_id]);
         } else {
             return $this->render('create', [
@@ -86,7 +86,7 @@ class RequestController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->loadAll(Yii::$app->request->post()) && $model->saveAll()) {
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->cuser_id]);
         } else {
             return $this->render('update', [
@@ -103,7 +103,7 @@ class RequestController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->deleteWithRelated();
+        $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
     }

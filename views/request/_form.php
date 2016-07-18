@@ -7,16 +7,16 @@ use yii\widgets\ActiveForm;
 /* @var $model app\models\Request */
 /* @var $form yii\widgets\ActiveForm */
 
-\mootensai\components\JsBlock::widget(['viewFile' => '_script', 'pos'=> \yii\web\View::POS_END, 
-    'viewParams' => [
-        'class' => 'Offer', 
-        'relID' => 'offer', 
-        'value' => \yii\helpers\Json::encode($model->offers),
-        'isNewRecord' => ($model->isNewRecord) ? 1 : 0
-    ]
-]);
+//\mootensai\components\JsBlock::widget(['viewFile' => '_script', 'pos'=> \yii\web\View::POS_END,
+//    'viewParams' => [
+//        'class' => 'Offer',
+//        'relID' => 'offer',
+//        'value' => \yii\helpers\Json::encode($model->offers),
+//        'isNewRecord' => ($model->isNewRecord) ? 1 : 0
+//    ]
+//]);
+//>
 ?>
-
 <div class="request-form">
 
     <?php $form = ActiveForm::begin(); ?>

@@ -21,7 +21,7 @@
         "mitalcoi/yii2-cronjobs": "dev-master",
         "vova07/yii2-console-runner-extension": "*",
         "kartik-v/yii2-widget-growl": "^1.1",
-        "mootensai/yii2-enhanced-gii": "dev-master",
+        "mootensai/yii2-enhanced-gii": "*",
         "kartik-v/yii2-date-range": "dev-master",
         "kartik-v/yii2-grid": "^3.1",
         "apaoww/yii2-oci8": "dev-master"

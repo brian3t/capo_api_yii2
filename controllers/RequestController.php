@@ -67,7 +67,7 @@ class RequestController extends Controller
     {
         $model = new Request();
 
-        if ($model->loadAll(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->cuser_id]);
         } else {
             return $this->render('create', [

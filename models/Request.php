@@ -55,5 +55,19 @@ class Request extends BaseRequest
         }
     }
 
+    public function fields()
+    {
+        return array_merge(parent::fields(),
+            [
+                'name'=>function ()
+                {
+                    return $this->cuser->name;
+                },
+                'phone'=>function ()
+                {
+                    return $this->cuser->phone;
+                }
+            ]);
+    }
 
 }

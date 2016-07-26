@@ -50,12 +50,12 @@ $this->registerJs($search);
                 'filterInputOptions' => ['placeholder' => 'Cuser', 'id' => 'grid--cuser_id']
             ],
         'status',
-        'dropoff_full_address',
-        'dropoff_lat',
-        'dropoff_lng',
         'pickup_full_address',
         'pickup_lat',
         'pickup_lng',
+        'dropoff_full_address',
+        'dropoff_lat',
+        'dropoff_lng',
         [
             'class' => 'yii\grid\ActionColumn',
         ],

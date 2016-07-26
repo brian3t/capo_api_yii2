@@ -40,12 +40,12 @@ $this->params['breadcrumbs'][]=$this->title;
                 'value'=>$model->cuser->username_and_id
             ],
             'status',
-            'dropoff_full_address',
-            'dropoff_lat',
-            'dropoff_lng',
             'pickup_full_address',
             'pickup_lat',
             'pickup_lng',
+            'dropoff_full_address',
+            'dropoff_lat',
+            'dropoff_lng',
         ];
         echo DetailView::widget([
             'model'=>$model,

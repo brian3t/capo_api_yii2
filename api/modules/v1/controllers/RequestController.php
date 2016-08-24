@@ -16,15 +16,18 @@ use Yii;
 class RequestController extends BaseActiveController
 {
     public $modelClass = 'app\models\Request';
-
+    const MAX_COORDS_DIFF = 1;
+    const MAX_ITEMS = 10;
+    
     public function actions()
     {
         $actions = parent::actions();
+        unset($actions['index']);
         unset($actions['create']);
         unset($actions['update']);
         return $actions;
     }
-
+    
     public function behaviors()
     {
         return ArrayHelper::merge([
@@ -33,12 +36,12 @@ class RequestController extends BaseActiveController
                 'cors' => [
                     'Origin' => ['*'],
                     'Access-Control-Request-Methods' => ['GET', 'POST', 'OPTIONS', 'DELETE', 'PUT', 'PATCH'],
-                    'Access-Control-Request-Headers' => ['Content-Type']
+                    'Access-Control-Request-Headers' => ['Content-Type'],
                 ],
             ],
         ], parent::behaviors());
     }
-
+    
     public function actionCreate()
     {
         \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
@@ -53,9 +56,9 @@ class RequestController extends BaseActiveController
                 /** @var Request $request */
                 $request->load(['Request' => (array)$entityBody]);
                 if (!$request->save()) {
-                    \Yii::error("Failed updating request" . json_encode($request). "\nNew data: ". json_encode($entityBody));
+                    \Yii::error("Failed updating request" . json_encode($request) . "\nNew data: " . json_encode($entityBody));
                 };
-
+                
                 echo json_encode($request->attributes);
                 \Yii::$app->response->setStatusCode(200);
                 return;
@@ -79,18 +82,31 @@ class RequestController extends BaseActiveController
             return;
         }
     }
-
+    
+    public function actionIndex($cur_lat = null, $cur_lng = null)
+    {
+        $cur_lat = $cur_lat??38.900571;
+        $cur_lng = $cur_lng??-77.008910;
+        
+        $requests = Request::find()->where(['>=', 'pickup_lat', $cur_lat - self::MAX_COORDS_DIFF])
+            ->andWhere(['<=', 'pickup_lat', $cur_lat + self::MAX_COORDS_DIFF])
+            ->andWhere(['>=', 'pickup_lng', $cur_lng - self::MAX_COORDS_DIFF,])
+            ->andWhere(['<=', 'pickup_lng', $cur_lng + self::MAX_COORDS_DIFF])->limit(self::MAX_ITEMS);
+        return $requests->all();
+    }
+    
     /**
      * Updates an existing model.
      * @param string $id the primary key of the model.
      * @return \yii\db\ActiveRecordInterface the model being updated
      * @throws ServerErrorHttpException if there is any error when updating the model
      */
-    public function actionUpdate($id){
+    public function actionUpdate($id)
+    {
         /* @var $model ActiveRecord */
-        $model = Request::find()->where(['cuser_id'=>$id])->one();
+        $model = Request::find()->where(['cuser_id' => $id])->one();
         //try creating if not exists
-        if (is_null($model)){
+        if (is_null($model)) {
             $model = new Request();
             $model->load(Yii::$app->getRequest()->getBodyParams(), '');
             if ($model->save() === false && !$model->hasErrors()) {
@@ -98,7 +114,7 @@ class RequestController extends BaseActiveController
             }
             return $model;
         }
-
+        
         //updating
         if ($this->hasProperty('checkAccess') && $this->checkAccess) {
             call_user_func($this->checkAccess, $this->id, $model);
@@ -109,8 +125,8 @@ class RequestController extends BaseActiveController
         if ($model->save() === false && !$model->hasErrors()) {
             throw new ServerErrorHttpException('Failed to update the object for unknown reason.');
         }
-
+        
         return $model;
     }
-
+    
 }

@@ -37,7 +37,9 @@ $config = [
                     'controller' => ['v1/cuser','v1/request', 'v1/offer'],
                     'pluralize' => false,
                     'tokens' => [
-                        '{id}' => '<id:\\w+>'
+                        '{id}' => '<id:\\w+>',
+                        '{cur_lat}' => '<cur_lat:\\w+>',
+                        '{cur_lng}' => '<cur_lng:\\w+>'
                     ],
                     'extraPatterns' => [
                         'GET query' => 'query',//todob this is cuser query

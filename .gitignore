@@ -12,3 +12,4 @@ vendor/
 web/index.php
 api/index.php
 web/assets/
+favicon.ico

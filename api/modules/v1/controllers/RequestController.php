@@ -85,8 +85,12 @@ class RequestController extends BaseActiveController
     
     public function actionIndex($cur_lat = null, $cur_lng = null)
     {
-        $cur_lat = $cur_lat??38.900571;
-        $cur_lng = $cur_lng??-77.008910;
+        if (is_null($cur_lat)) {
+            $cur_lat = 38.900571;
+        }
+        if (is_null($cur_lng)) {
+            $cur_lng = -77.008910;
+        }
         
         $requests = Request::find()->where(['>=', 'pickup_lat', $cur_lat - self::MAX_COORDS_DIFF])
             ->andWhere(['<=', 'pickup_lat', $cur_lat + self::MAX_COORDS_DIFF])

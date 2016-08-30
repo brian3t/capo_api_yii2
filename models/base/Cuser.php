@@ -15,16 +15,20 @@ use mootensai\behaviors\UUIDBehavior;
  * @property string $created_at
  * @property string $updated_at
  * @property string $status_description
- * @property double $commuter
+ * @property integer $commuter
  * @property string $hashed_password
- * @property double $enrolled
+ * @property integer $enrolled
  * @property string $email
  * @property string $username
  * @property string $commuter_data
  * @property array $commuter_data_array
+ * @property string $lat
+ * @property string $lng
+ * @property string $address_realtime
  *
  * @property string $name
  * @property string $phone
+ * @property \app\models\Offer $offer
  * @property \app\models\Request[] $requests
  *
  */
@@ -41,11 +45,14 @@ class Cuser extends \yii\db\ActiveRecord
         return [
             [['id'],'required'],
             [['commuter','enrolled'],'number'],
+            [['lat', 'lng'], 'number'],
             [['id','first_name','status_description','username'],'string','max'=>80],
             [['status_code'],'string','max'=>20],
             [['created_at','updated_at'],'string'],
             [['hashed_password'],'string','max'=>28],
-            [['email'],'string','max'=>125]
+            [['email'],'string','max'=>125],
+            [['commuter_data'], 'string', 'max' => 8000],
+            [['address_realtime'], 'string', 'max' => 800]
         ];
     }
 
@@ -72,6 +79,9 @@ class Cuser extends \yii\db\ActiveRecord
             'enrolled'=>'Enrolled',
             'email'=>'Email',
             'username'=>'Username',
+            'lat' => 'Current Lat',
+            'lng' => 'Current Lng',
+            'address_realtime' => 'Current Address',
         );
     }
 

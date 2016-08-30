@@ -35,7 +35,14 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'username')->textInput(['maxlength' => true, 'placeholder' => 'Username']) ?>
 
     <?= $form->field($model, 'commuter_data')->textInput(['maxlength' => true, 'placeholder' => 'Commuter Data']) ?>
-
+    
+    <?= $form->field($model, 'lat')->textInput(['maxlength' => true, 'placeholder' => 'Lat']) ?>
+    
+    <?= $form->field($model, 'lng')->textInput(['maxlength' => true, 'placeholder' => 'Lng']) ?>
+    
+    <?= $form->field($model, 'address_realtime')->textInput(['maxlength' => true, 'placeholder' => 'Address Realtime']) ?>
+    
+    
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>

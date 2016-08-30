@@ -44,6 +44,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'email:email',
         'username',
         'commuter_data',
+        'lat',
+        'lng',
+        'address_realtime',
     ];
     echo DetailView::widget([
         'model' => $model,

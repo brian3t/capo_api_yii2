@@ -50,6 +50,7 @@ $this->registerJs($search);
                 'filterInputOptions' => ['placeholder' => 'Cuser', 'id' => 'grid--cuser_id']
             ],
         'status',
+        'updated_at',
         'pickup_full_address',
         'pickup_lat',
         'pickup_lng',

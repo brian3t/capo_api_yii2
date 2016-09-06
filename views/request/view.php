@@ -46,6 +46,7 @@ $this->params['breadcrumbs'][]=$this->title;
             'dropoff_full_address',
             'dropoff_lat',
             'dropoff_lng',
+            'trigger_col',
         ];
         echo DetailView::widget([
             'model'=>$model,

@@ -19,6 +19,7 @@ use mootensai\behaviors\UUIDBehavior;
  * @property string $pickup_full_address
  * @property string $pickup_lat
  * @property string $pickup_lng
+ * @property string $trigger_col
  *
  * @property \app\models\Offer[] $offers
  * @property \app\models\Cuser $cuser
@@ -36,7 +37,7 @@ class Request extends \yii\db\ActiveRecord
         return [
             [['cuser_id', 'dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'required'],
             [['status'], 'string'],
-            [['created_at', 'updated_at'], 'safe'],
+            [['created_at', 'updated_at', 'trigger_col'], 'safe'],
             [['dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'number'],
             [['cuser_id'], 'string', 'max' => 36],
             [['dropoff_full_address', 'pickup_full_address'], 'string', 'max' => 400]
@@ -65,6 +66,7 @@ class Request extends \yii\db\ActiveRecord
             'pickup_full_address' => 'Pickup Full Address',
             'pickup_lat' => 'Pickup Lat',
             'pickup_lng' => 'Pickup Lng',
+            'trigger_col' => 'Trigger Col',
         ];
     }
 

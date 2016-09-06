@@ -20,7 +20,7 @@ class Request extends BaseRequest
 	    [
             [['cuser_id', 'dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'required'],
             [['status'], 'string'],
-            [['created_at', 'updated_at'], 'safe'],
+            [['created_at', 'updated_at', 'trigger_col'], 'safe'],
             [['dropoff_lat', 'dropoff_lng', 'pickup_lat', 'pickup_lng'], 'number'],
             [['cuser_id'], 'string', 'max' => 36],
             [['dropoff_full_address', 'pickup_full_address'], 'string', 'max' => 400]

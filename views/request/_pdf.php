@@ -33,6 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'pickup_full_address',
         'pickup_lat',
         'pickup_lng',
+        'trigger_col',
     ];
     echo DetailView::widget([
         'model' => $model,

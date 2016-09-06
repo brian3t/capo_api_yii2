@@ -56,6 +56,7 @@ $this->registerJs($search);
         'dropoff_full_address',
         'dropoff_lat',
         'dropoff_lng',
+        'trigger_col',
         [
             'class' => 'yii\grid\ActionColumn',
         ],

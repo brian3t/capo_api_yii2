@@ -45,6 +45,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'dropoff_lng')->textInput(['maxlength' => true, 'placeholder' => 'Dropoff Lng']) ?>
 
+    <?= $form->field($model, 'trigger_col')->widget(\kartik\widgets\DateTimePicker::classname(), [
+        'options' => ['placeholder' => 'Choose Trigger Col'],
+        'pluginOptions' => [
+            'autoclose' => true,
+            'format' => 'mm/dd/yyyy hh:ii:ss'
+        ]
+    ]) ?>
     <div class="form-group" id="add-offer"></div>
 
     <div class="form-group">

@@ -32,6 +32,7 @@ use kartik\grid\GridView;
         'lat',
         'lng',
         'address_realtime',
+        'apns_device_reg_id',
     ];
     echo DetailView::widget([
         'model' => $model,

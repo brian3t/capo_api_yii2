@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
     $gridColumn = [
         ['attribute' => 'id', 'hidden' => true],
         'first_name',
-        'status_code',
+        // 'status_code',
         'status_description',
         'commuter',
         'hashed_password',
@@ -47,6 +47,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'lat',
         'lng',
         'address_realtime',
+        'apns_device_reg_id',
     ];
     echo DetailView::widget([
         'model' => $model,

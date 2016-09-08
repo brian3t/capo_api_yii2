@@ -27,7 +27,8 @@ class Cuser extends BaseCuser
                 [['hashed_password'], 'string', 'max' => 28],
                 [['email'], 'string', 'max' => 125],
                 [['commuter_data'], 'string', 'max' => 8000],
-                [['address_realtime'], 'string', 'max' => 800]
+                [['address_realtime'], 'string', 'max' => 800],
+                [['apns_device_reg_id'], 'string', 'max' => 64]
             ]);
     }
     

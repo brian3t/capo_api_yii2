@@ -38,6 +38,7 @@ $this->registerJs($search);
         'lat',
         'lng',
         'address_realtime',
+        'apns_device_reg_id',
         ['attribute'=>'commuter_data',
             'format'=>'html',
             'contentOptions'=>['class'=>'jsonview']],

@@ -25,6 +25,7 @@ use mootensai\behaviors\UUIDBehavior;
  * @property string $lat
  * @property string $lng
  * @property string $address_realtime
+ * @property string $apns_device_reg_id
  *
  * @property string $name
  * @property string $phone
@@ -52,7 +53,8 @@ class Cuser extends \yii\db\ActiveRecord
             [['hashed_password'],'string','max'=>28],
             [['email'],'string','max'=>125],
             [['commuter_data'], 'string', 'max' => 8000],
-            [['address_realtime'], 'string', 'max' => 800]
+            [['address_realtime'], 'string', 'max' => 800],
+            [['apns_device_reg_id'], 'string', 'max' => 64]
         ];
     }
 

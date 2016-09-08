@@ -8,7 +8,7 @@ $message = '';
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 
-$conn = oci_connect('carpoolnowdb', 'Duip34jitjit-', '52.9.243.54/ORCL');
+$conn = oci_connect('CARPOOLNOW', 'ILikeCarpools', 'ccoracle.mwcog.org/prod12c');
 
 // $stid = oci_parse($conn, 'select table_name from user_tables');
 // oci_execute($stid);

@@ -60,5 +60,10 @@ class Cuser extends BaseCuser
         }
     }
     
-    
+    public function fields()
+    {
+        $fields = parent::fields();
+        unset($fields['updated_at']);
+        return $fields;
+    }
 }

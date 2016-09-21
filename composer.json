@@ -24,7 +24,8 @@
         "mootensai/yii2-enhanced-gii": "*",
         "kartik-v/yii2-date-range": "dev-master",
         "kartik-v/yii2-grid": "^3.1",
-        "apaoww/yii2-oci8": "dev-master"
+        "apaoww/yii2-oci8": "dev-master",
+        "duccio/apns-php": "^1.0"
 		},
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

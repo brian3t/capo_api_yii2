@@ -2,6 +2,7 @@
 namespace app\api\modules\v1\controllers;
 
 use app\api\base\controllers\BaseActiveController;
+use app\helpers\Pusher;
 use app\models\Offer;
 use yii\data\ActiveDataProvider;
 use app\models\Cuser;
@@ -109,7 +110,7 @@ class OfferController extends BaseActiveController
      * @throws ServerErrorHttpException if there is any error when updating the model
      */
     public function actionCreate(){
-        /* @var $model \yii\db\ActiveRecord */
+        /* @var $model Offer */
         $model = new $this->modelClass([
             'scenario' => $this->scenario,
         ]);
@@ -123,8 +124,20 @@ class OfferController extends BaseActiveController
             throw new ServerErrorHttpException('Failed to create the object for unknown reason.');
         }
         
-        
+        //notifies rider
+        $rider=$model->request_cuser;
+        /* @var $rider Cuser */
+        if ($rider->apns_device_reg_id !== null){
+            //apns here
+
+        }
         return $model;
     }
-    
+
+    public function actionTestpush(){
+        $pusher=new Pusher();
+        $offer=Offer::find()->where(['request_cuser'=>'57ca791c7d06757ca791c7d0a4'])->one();
+        $rider=Cuser::find()->where(['id'=>'57ca791c7d06757ca791c7d0a4'])->one();
+        $pusher->actionPushOfferFound($rider, $offer);
+    }
 }

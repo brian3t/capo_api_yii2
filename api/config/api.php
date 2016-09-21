@@ -43,6 +43,7 @@ $config = [
                     ],
                     'extraPatterns' => [
                         'GET query' => 'query',//todob this is cuser query
+                        'GET testpush' => 'testpush',//todob this is cuser query
                     ],
 
                 ],

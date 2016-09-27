@@ -18,7 +18,7 @@ use Yii;
 class OfferController extends BaseActiveController
 {
     public $modelClass = 'app\models\Offer';
-
+    
     public function actions()
     {
         $actions = parent::actions();
@@ -27,7 +27,7 @@ class OfferController extends BaseActiveController
         unset($actions['create']);
         return $actions;
     }
-
+    
     public function behaviors()
     {
         return ArrayHelper::merge([
@@ -36,38 +36,39 @@ class OfferController extends BaseActiveController
                 'cors' => [
                     'Origin' => ['*'],
                     'Access-Control-Request-Methods' => ['GET', 'POST', 'OPTIONS', 'DELETE', 'PUT', 'PATCH'],
-                    'Access-Control-Request-Headers' => ['Content-Type']
+                    'Access-Control-Request-Headers' => ['Content-Type'],
                 ],
             ],
         ], parent::behaviors());
     }
-
+    
     public function actionIndex()
     {
         /* @var $modelClass Offer */
         $modelClass = $this->modelClass;
-
+        
         $offers = $modelClass::find()->innerJoinWith('cuser')->where(\Yii::$app->request->queryParams)->addSelect('offer.cuser_id, offer.request_cuser, offer.created_at,
         offer.updated_at, offer.status,cuser.commuter_data, cuser.first_name')->asArray()->all();
         /** @var array $offers */
         foreach ($offers as &$offer) {
             $commuter_data = json_decode($offer['commuter_data'], true);
             $name = $offer['first_name'];
-            if (isset($commuter_data['commuterName'])){
+            if (isset($commuter_data['commuterName'])) {
                 $name = $commuter_data['commuterName'];
             }
             $phone = '';
-            if (isset($commuter_data['hphone'])){
+            if (isset($commuter_data['hphone'])) {
                 $phone = $commuter_data['hphone'];
             }
             $offer['name'] = $name;
             $offer['phone'] = $phone;
             // $offer = ArrayHelper::getColumn($offer, ['cuser_id', 'created_at', 'updated_at', 'status']);
-            $offer = array_intersect_key($offer, array_flip(['cuser_id', 'created_at', 'updated_at', 'status', 'name', 'phone']));
+            $offer = array_intersect_key($offer,
+                array_flip(['cuser_id', 'created_at', 'updated_at', 'status', 'name', 'phone']));
         }
         echo json_encode($offers);
         return;
-
+        
     }
     
     /**
@@ -76,11 +77,12 @@ class OfferController extends BaseActiveController
      * @return \yii\db\ActiveRecordInterface the model being updated
      * @throws ServerErrorHttpException if there is any error when updating the model
      */
-    public function actionUpdate($id){
+    public function actionUpdate($id)
+    {
         /* @var $model ActiveRecord */
-        $model = Offer::find()->where(['cuser_id'=>$id])->one();
+        $model = Offer::find()->where(['cuser_id' => $id])->one();
         //try creating if not exists
-        if (is_null($model)){
+        if (is_null($model)) {
             $model = new Offer();
             $model->load(Yii::$app->getRequest()->getBodyParams(), '');
             if ($model->save() === false && !$model->hasErrors()) {
@@ -109,12 +111,11 @@ class OfferController extends BaseActiveController
      * @return \yii\db\ActiveRecordInterface the model being updated
      * @throws ServerErrorHttpException if there is any error when updating the model
      */
-    public function actionCreate(){
+    public function actionCreate()
+    {
         /* @var $model Offer */
-        $model = new $this->modelClass([
-            'scenario' => $this->scenario,
-        ]);
-    
+        $model = new Offer();
+        
         $model->load(Yii::$app->getRequest()->getBodyParams(), '');
         if ($model->save()) {
             $response = Yii::$app->getResponse();
@@ -125,19 +126,24 @@ class OfferController extends BaseActiveController
         }
         
         //notifies rider
-        $rider=$model->request_cuser;
+        $rider = $model->requestCuser;
         /* @var $rider Cuser */
-        if ($rider->apns_device_reg_id !== null){
-            //apns here
-
+        if ($rider->apns_device_reg_id !== null) {
+            $pusher = new Pusher();
+            $pusher->actionPushOfferFound($rider, $model);
         }
         return $model;
     }
-
-    public function actionTestpush(){
-        $pusher=new Pusher();
-        $offer=Offer::find()->where(['request_cuser'=>'57ca791c7d06757ca791c7d0a4'])->one();
-        $rider=Cuser::find()->where(['id'=>'57ca791c7d06757ca791c7d0a4'])->one();
+    
+    /**
+     * Sends a test notification to Ross Edgar.
+     * Note: must have a request and an offer for Ross already
+     */
+    public function actionTestpush()
+    {
+        $pusher = new Pusher();
+        $offer = Offer::find()->where(['request_cuser' => '571317eeb6f15571317eeb6f1a'])->one();
+        $rider = Cuser::find()->where(['id' => '571317eeb6f15571317eeb6f1a'])->one();
         $pusher->actionPushOfferFound($rider, $offer);
     }
 }

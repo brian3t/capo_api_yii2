@@ -92,6 +92,7 @@ class RequestController extends BaseActiveController
             $cur_lng = -77.008910;
         }
         
+        
         $requests = Request::find()->where(['>=', 'pickup_lat', $cur_lat - self::MAX_COORDS_DIFF])
             ->andWhere(['<=', 'pickup_lat', $cur_lat + self::MAX_COORDS_DIFF])
             ->andWhere(['>=', 'pickup_lng', $cur_lng - self::MAX_COORDS_DIFF,])

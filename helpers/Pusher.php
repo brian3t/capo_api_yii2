@@ -73,7 +73,8 @@ class Pusher
         $message->setBadge(1);
 
 // Set a simple welcome text
-        $message->setText('A driver has offered you a ride!');
+        $rider_name = $offer->cuser->first_name;
+        $message->setText("You have been matched with $rider_name! Click here to return to the app and approve your ridematch.");
 
 // Play the default sound
         $message->setSound();

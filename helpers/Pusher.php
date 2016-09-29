@@ -37,8 +37,8 @@ class Pusher
 
 // Instantiate a new ApnsPHP_Push object
         $this->push = new ApnsPHP_Push(
-            ApnsPHP_Abstract::ENVIRONMENT_SANDBOX,
-            '../config/ios_push_sandbox.pem'
+            ApnsPHP_Abstract::ENVIRONMENT_PRODUCTION,
+            '../config/iospush_no_pwCarpoolNow_PROD.pem'
         );
 
 // Set the Provider Certificate passphrase
@@ -77,10 +77,10 @@ class Pusher
         $message->setText("You have been matched with $rider_name! Click here to return to the app and approve your ridematch.");
 
 // Play the default sound
-        $message->setSound();
+//        $message->setSound();
 
 // Set another custom property
-        $message->setCustomProperty('offer', $offer->toArray());
+//        $message->setCustomProperty('offer', $offer->toArray());
 
 // Set the expiry value to 30 seconds
 //        $message->setExpiry(30);

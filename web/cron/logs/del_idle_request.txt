@@ -1,0 +1,96 @@
+Cronjob starts at 2016-09-29 04:44:23
+Deleting: 57eb2677a0a7b57eb2677a0a81
+pending
+28-SEP-16 06.20.22.549000 PM
+28-SEP-16 06.20.22.000000 PM
+14801-14805 Southlawn Ln, Rockville, MD 20850, USA
+39.0982518
+-77.1356798
+1406 Kanawha St, Hyattsville, Md 20783
+38.9883026
+-76.9836199
+&nbsp;
+
+Deleting: 57ecf04bcda1057ecf04bcda15
+pending
+29-SEP-16 06.46.26.740000 AM
+29-SEP-16 06.46.26.000000 AM
+2025 E St Nw, Washington, Dc 20006
+38.8964479
+-77.0459693
+6477 Silver Ridge Cir, Alexandria, VA 22315, USA
+38.761647
+-77.1617179
+&nbsp;
+
+Deleting: 57ec474c97e0157ec474c97e07
+pending
+28-SEP-16 06.42.59.166000 PM
+28-SEP-16 06.42.59.000000 PM
+726 Parrish Farm Lane, Great Falls, Va 22066
+39.029441
+-77.355435
+1501 Wilson Blvd, Arlington, Va 22201
+38.8952016
+-77.0742466
+&nbsp;
+
+____________________________________________
+Cronjob starts at 2016-09-29 08:36:58
+Deleting: 57c3a3235ac4a57c3a3235ac4f
+pending
+29-SEP-16 11.15.32.674000 AM
+29-SEP-16 11.15.32.000000 AM
+13364 Mussey Grade Rd, Ramona, CA 92065, USA
+32.95857
+-116.920323
+4140 Marine View Ave, San Diego, CA 92113, USA
+32.684911
+-117.104656
+&nbsp;
+
+Deleting: 57c457f50f65357c457f50f658
+pending
+29-SEP-16 11.07.53.105000 AM
+29-SEP-16 11.07.53.000000 AM
+Pentagon, Washington, Dc 20301
+38.8709862
+-77.0559544
+32-84 H St NE, Washington, DC 20002, USA
+38.9002807
+-77.008385
+&nbsp;
+
+Deleting: 57ebb5b1ae61157ebb5b1ae616
+pending
+29-SEP-16 07.38.03.797000 AM
+29-SEP-16 07.38.03.000000 AM
+4714 Kenmore Ave, Alexandria, VA 22304, USA
+38.8273009
+-77.1114744
+3636 16th St Nw, Washington , Dc 20010
+38.9363741
+-77.0377366
+&nbsp;
+
+____________________________________________
+Cronjob starts at 2016-09-29 08:37:01
+____________________________________________
+Cronjob starts at 2016-09-29 08:37:12
+____________________________________________
+Cronjob starts at 2016-09-29 09:07:07
+____________________________________________
+Cronjob starts at 2016-09-29 09:36:59
+Deleting: 57bb54360485157bb543604857
+pending
+29-SEP-16 11.57.39.960000 AM
+29-SEP-16 11.57.39.000000 AM
+7380 Miramar Rd, San Diego, CA 92126, USA
+32.880128
+-117.152452
+46141 Miramar Way, San Diego, CA 92145, USA
+32.880128
+-117.152452
+&nbsp;
+
+____________________________________________

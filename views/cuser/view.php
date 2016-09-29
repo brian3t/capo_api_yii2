@@ -61,7 +61,7 @@ $this->params['breadcrumbs'][] = $this->title;
 if($providerRequest->totalCount){
     $gridColumnRequest = [
         ['class' => 'yii\grid\SerialColumn'],
-            ['attribute' => 'id', 'hidden' => true],
+            ['attribute' => 'cuser_id', 'hidden' => true],
             [
                 'attribute' => 'cuser.id',
                 'label' => 'Cuser'

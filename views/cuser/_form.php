@@ -41,6 +41,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'lng')->textInput(['maxlength' => true, 'placeholder' => 'Lng']) ?>
     
     <?= $form->field($model, 'address_realtime')->textInput(['maxlength' => true, 'placeholder' => 'Address Realtime']) ?>
+    <?= $form->field($model, 'apns_device_reg_id')->textInput(['maxlength' => true, 'placeholder' => 'APNS Device Reg Id']) ?>
     
     
     <div class="form-group">

@@ -45,7 +45,7 @@ class Pusher
 // $this->push->setProviderCertificatePassphrase('test');
 
 // Set the Root Certificate Autority to verify the Apple remote peer
-        $this->push->setRootCertificationAuthority('../config/entrust_g2_ca.cer');
+        $this->push->setRootCertificationAuthority('../config/entrust_2048_ca.cer');
 
 // Connect to the Apple Push Notification Service
         $this->push->connect();

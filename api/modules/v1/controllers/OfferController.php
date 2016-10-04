@@ -44,7 +44,6 @@ class OfferController extends BaseActiveController
     
     public function actionIndex()
     {
-		//Yii::warning('OfferController > actionIndex');
         /* @var $modelClass Offer */
         $modelClass = $this->modelClass;
         
@@ -80,7 +79,6 @@ class OfferController extends BaseActiveController
      */
     public function actionUpdate($id)
     {
-		Yii::warning('OfferController > actionUpdate');
         /* @var $model ActiveRecord */
         $model = Offer::find()->where(['cuser_id' => $id])->one();
         //try creating if not exists
@@ -91,25 +89,20 @@ class OfferController extends BaseActiveController
                 throw new ServerErrorHttpException('Failed to create new offer.');
             }
             //todob notify mobile devices here
-			
-			
-			
-			// START mhemry	
-			$rider = $model->requestCuser;			
-			Yii::warning('OfferController > actionUpdate > notify rider 1');
-			Yii::warning("OfferController > actionUpdate > rider apns: " . $rider->apns_device_reg_id);
+
+
+
+			// START mhemry
+			$rider = $model->requestCuser;
 			if ($rider->apns_device_reg_id !== null) {
-				Yii::warning('OfferController > actionUpdate > notify rider 2 - action time START');
 				$pusher = new Pusher();
 				$pusher->actionPushOfferFound($rider, $model);
-				Yii::warning('OfferController > actionUpdate > notify rider 3 - action time END');
 			}
-			Yii::warning('OfferController > actionUpdate > the end');
 			// END mhemry
 
 
-			
-			
+
+
             return $model;
         }
         
@@ -134,33 +127,25 @@ class OfferController extends BaseActiveController
      */
     public function actionCreate()
     {
-		Yii::warning('OfferController > actionCreate');
         /* @var $model Offer */
         $model = new Offer();
         
         $model->load(Yii::$app->getRequest()->getBodyParams(), '');
         if ($model->save()) {
-			Yii::warning('OfferController > actionCreate > model saved');
             $response = Yii::$app->getResponse();
             $response->setStatusCode(201);
             $id = implode(',', array_values($model->getPrimaryKey(true)));
         } elseif (!$model->hasErrors()) {
-			Yii::warning('OfferController > actionCreate > model save error');
             throw new ServerErrorHttpException('Failed to create the object for unknown reason.');
         }
         
         //notifies rider
         $rider = $model->requestCuser;
         /* @var $rider Cuser */
-		//Yii::error("Offer create ". json_encode($rider->getAttributes()));
-		Yii::warning('OfferController > actionCreate > notify rider 1');
         if ($rider->apns_device_reg_id !== null) {
-			Yii::warning('OfferController > actionCreate > notify rider 2 - action time START');
             $pusher = new Pusher();
             $pusher->actionPushOfferFound($rider, $model);
-			Yii::warning('OfferController > actionCreate > notify rider 3 - action time END');
         }
-		Yii::warning('OfferController > actionCreate > the end');
         return $model;
     }
     
@@ -177,7 +162,7 @@ class OfferController extends BaseActiveController
         if ($offer && $rider) {
 			$pusher->actionPushOfferFound($rider, $offer);
 		}
-		
+
 		//ROSS Edgar
         $offer = Offer::find()->where(['request_cuser' => '57bb54360485157bb543604857'])->one();
         $rider = Cuser::find()->where(['id' => '57bb54360485157bb543604857'])->one();

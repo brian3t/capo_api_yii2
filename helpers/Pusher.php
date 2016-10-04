@@ -74,6 +74,12 @@ class Pusher
 
 // Set a simple welcome text
         $rider_name = $offer->cuser->first_name;
+        $rider_names=explode(' ',$rider_name);
+        if (count($rider_names) >= 2){
+            $rider_names[1] = strtoupper($rider_names[1][0]) . '.';
+        }
+        $rider_name=implode(' ', $rider_names);
+
         $message->setText("You have been matched with $rider_name! Click here to return to the app and approve your ridematch.");
 
 // Play the default sound

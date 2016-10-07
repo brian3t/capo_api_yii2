@@ -28,6 +28,7 @@ $this->registerJs($search);
         ['attribute'=>'id'],
         'first_name',
         'updated_at',
+        'status',
         'status_code',
 //        'status_description',
         'commuter',

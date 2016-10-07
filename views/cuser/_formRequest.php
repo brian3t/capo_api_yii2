@@ -1,57 +1,30 @@
 <?php
-use kartik\grid\GridView;
-use kartik\builder\TabularForm;
-use yii\data\ArrayDataProvider;
-use yii\helpers\Html;
-use yii\widgets\Pjax;
 
-Pjax::begin();
-$dataProvider = new ArrayDataProvider([
-    'allModels' => $row,
-    'pagination' => [
-        'pageSize' => -1
-    ]
-]);
-echo TabularForm::widget([
-    'dataProvider' => $dataProvider,
-    'formName' => 'Request',
-    'checkboxColumn' => false,
-    'actionColumn' => false,
-    'attributeDefaults' => [
-        'type' => TabularForm::INPUT_TEXT,
-    ],
-    'attributes' => [
-        "id" => ['type' => TabularForm::INPUT_HIDDEN, 'columnOptions' => ['hidden' => true]],
-        'status' => ['type' => TabularForm::INPUT_DROPDOWN_LIST,
-            'options' => [
-                'items' => ['pending' => 'Pending', 'cancelled' => 'Cancelled', 'fulfilled' => 'Fulfilled', 'timeout' => 'Timeout',],
-                'columnOptions' => ['width' => '185px'],
-                'options' => ['placeholder' => 'Choose Status'],
-            ]
-        ],
-        'dropoff_full_address' => ['type' => TabularForm::INPUT_TEXT],
-        'dropoff_lat' => ['type' => TabularForm::INPUT_TEXT],
-        'dropoff_lng' => ['type' => TabularForm::INPUT_TEXT],
-        'pickup_full_address' => ['type' => TabularForm::INPUT_TEXT],
-        'pickup_lat' => ['type' => TabularForm::INPUT_TEXT],
-        'pickup_lng' => ['type' => TabularForm::INPUT_TEXT],
-        'del' => [
-            'type' => 'raw',
-            'label' => '',
-            'value' => function ($model, $key) {
-                return Html::a(' < i class="glyphicon glyphicon-trash" ></i > ', '#', ['title' => 'Delete', 'onClick' => 'delRowRequest(' . $key . '); return false;', 'id' => 'request-del-btn']);
-            },
-        ],
-    ],
-    'gridSettings' => [
-        'panel' => [
-            'heading' => '<span class="glyphicon glyphicon-book"></span> ' . 'Request',
-            'type' => GridView::TYPE_INFO,
-            'before' => false,
-            'footer' => false,
-            'after' => Html::button('<i class="glyphicon glyphicon-plus"></i>' . 'Add Row', ['type' => 'button', 'class' => 'btn btn-success kv-batch-create', 'onClick' => 'addRowRequest()']),
-        ]
-    ]
-]);
-Pjax::end();
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+
+/* @var $this yii\web\View */
+/* @var $model app\models\Request */
+/* @var $form yii\widgets\ActiveForm */
+
 ?>
+
+<div class="cuser-form">
+
+    <?= $form->field($Request, 'status')->dropDownList([ 'pending' => 'Pending', 'cancelled' => 'Cancelled', 'fulfilled' => 'Fulfilled', 'timeout' => 'Timeout', 'accepted' => 'Accepted', ], ['prompt' => '']) ?>
+
+    <?= $form->field($Request, 'dropoff_full_address')->textInput(['maxlength' => true, 'placeholder' => 'Dropoff Full Address']) ?>
+
+    <?= $form->field($Request, 'dropoff_lat')->textInput(['maxlength' => true, 'placeholder' => 'Dropoff Lat']) ?>
+
+    <?= $form->field($Request, 'dropoff_lng')->textInput(['maxlength' => true, 'placeholder' => 'Dropoff Lng']) ?>
+
+    <?= $form->field($Request, 'pickup_full_address')->textInput(['maxlength' => true, 'placeholder' => 'Pickup Full Address']) ?>
+
+    <?= $form->field($Request, 'pickup_lat')->textInput(['maxlength' => true, 'placeholder' => 'Pickup Lat']) ?>
+
+    <?= $form->field($Request, 'pickup_lng')->textInput(['maxlength' => true, 'placeholder' => 'Pickup Lng']) ?>
+
+    <?= $form->field($Request, 'trigger_col')->textInput(['placeholder' => 'Trigger Col']) ?>
+
+</div>

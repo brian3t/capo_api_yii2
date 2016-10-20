@@ -36,6 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
     $gridColumn = [
         ['attribute' => 'id', 'hidden' => true],
         'first_name',
+        'cuser_status',
         // 'status_code',
         'status_description',
         'commuter',

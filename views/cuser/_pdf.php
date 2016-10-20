@@ -25,8 +25,6 @@ $this->params['breadcrumbs'][] = $this->title;
         ['attribute' => 'id', 'hidden' => true],
         'first_name',
         'status_code',
-        'created_at',
-        'updated_at',
         'status_description',
         'commuter',
         'hashed_password',
@@ -38,6 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'lng',
         'address_realtime',
         'apns_device_reg_id',
+        'cuser_status',
     ];
     echo DetailView::widget([
         'model' => $model,

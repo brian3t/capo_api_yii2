@@ -11,7 +11,7 @@ use mootensai\behaviors\UUIDBehavior;
  *
  * @property string $id
  * @property string $first_name
- * @property string $status
+ * @property string $cuser_status
  * @property string $status_code
  * @property string $created_at
  * @property string $updated_at
@@ -49,7 +49,7 @@ class Cuser extends \yii\db\ActiveRecord
             [['commuter','enrolled'],'number'],
             [['lat', 'lng'], 'number'],
             [['id','first_name','status_description','username'],'string','max'=>80],
-            [['status'], 'string'],
+            [['cuser_status'], 'string'],
             [['status_code'],'string','max'=>20],
             [['created_at','updated_at'],'string'],
             [['hashed_password'],'string','max'=>28],

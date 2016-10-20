@@ -23,7 +23,7 @@ class Cuser extends BaseCuser
                 [['lat', 'lng'], 'number'],
                 [['id', 'first_name', 'status_description', 'username'], 'string', 'max' => 80],
                 [['status_code'], 'string', 'max' => 20],
-                [['status'], 'string'],
+                [['cuser_status'], 'string'],
                 [['created_at', 'updated_at'], 'string'],
                 [['hashed_password'], 'string', 'max' => 28],
                 [['email'], 'string', 'max' => 125],

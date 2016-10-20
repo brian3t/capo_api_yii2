@@ -31,7 +31,7 @@ $this->registerJs($search);
         'cuser_status',
         'status_code',
 //        'status_description',
-        'commuter',
+//        'commuter',
 //        'hashed_password',
         'enrolled',
         'email:email',

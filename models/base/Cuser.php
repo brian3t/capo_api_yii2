@@ -106,46 +106,4 @@ class Cuser extends \yii\db\ActiveRecord
         return $this->hasMany(\app\models\Request::className(),['cuser_id'=>'id']);
     }
 
-    public function getCommuter_data_array()
-    {
-        try
-        {
-            return json_decode($this->commuter_data,true);
-        } catch (\Exception $e)
-        {
-            error("Bad commuter data. Message: {$e->getMessage()}. Cuser: " . json_encode($this->attributes));
-            return '';
-        }
-    }
-
-    public function getName()
-    {
-        $name=$this->first_name;
-
-        if(isset($this->commuter_data_array['commuterName']))
-        {
-            $name=$this->commuter_data_array['commuterName'];
-        }
-        return $name;
-    }
-
-    public function getPhone()
-    {
-        $phone='';
-        if(isset($this->commuter_data_array['hphone']))
-        {
-            $phone=$this->commuter_data_array['hphone'];
-        }
-        return $phone;
-    }
-
-    public function fields()
-    {
-        return array_merge(['name','phone'],parent::fields());
-    }
-
-    public function getUsername_and_id()
-    {
-        return $this->username . ' - ' . $this->id;
-    }
 }

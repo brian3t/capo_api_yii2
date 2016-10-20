@@ -23,6 +23,7 @@ class Cuser extends BaseCuser
                 [['lat', 'lng'], 'number'],
                 [['id', 'first_name', 'status_description', 'username'], 'string', 'max' => 80],
                 [['status_code'], 'string', 'max' => 20],
+                [['status'], 'string'],
                 [['created_at', 'updated_at'], 'string'],
                 [['hashed_password'], 'string', 'max' => 28],
                 [['email'], 'string', 'max' => 125],
@@ -60,11 +61,49 @@ class Cuser extends BaseCuser
             ];
         }
     }
-    
+    public function getCommuter_data_array()
+    {
+        try
+        {
+            return json_decode($this->commuter_data,true);
+        } catch (\Exception $e)
+        {
+            error("Bad commuter data. Message: {$e->getMessage()}. Cuser: " . json_encode($this->attributes));
+            return '';
+        }
+    }
+
+    public function getName()
+    {
+        $name=$this->first_name;
+
+        if(isset($this->commuter_data_array['commuterName']))
+        {
+            $name=$this->commuter_data_array['commuterName'];
+        }
+        return $name;
+    }
+
+    public function getPhone()
+    {
+        $phone='';
+        if(isset($this->commuter_data_array['hphone']))
+        {
+            $phone=$this->commuter_data_array['hphone'];
+        }
+        return $phone;
+    }
+
     public function fields()
     {
         $fields = parent::fields();
         unset($fields['updated_at']);
-        return $fields;
+        return array_merge(['name','phone'],$fields);
     }
+
+    public function getUsername_and_id()
+    {
+        return $this->username . ' - ' . $this->id;
+    }
+
 }

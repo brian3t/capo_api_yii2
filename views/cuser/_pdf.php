@@ -35,8 +35,6 @@ $this->params['breadcrumbs'][] = $this->title;
         'lat',
         'lng',
         'address_realtime',
-        'apns_device_reg_id',
-        'cuser_status',
     ];
     echo DetailView::widget([
         'model' => $model,

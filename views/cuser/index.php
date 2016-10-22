@@ -5,6 +5,7 @@ use kartik\export\ExportMenu;
 use kartik\grid\GridView;
 
 /* @var $this yii\web\View */
+/* @var $searchModel app\models\CuserSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title='Cuser';
@@ -18,10 +19,17 @@ $this->registerJs($search);
 <div class="cuser-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
         <?= Html::a('Create Cuser',['create'],['class'=>'btn btn-success']) ?>
+        <?= Html::a('Advanced Search', '#', ['class' => 'btn btn-info search-button']) ?>
     </p>
+
+    <div class="search-form" style="display:none">
+        <?= $this->render('_search', ['model' => $searchModel]); ?>
+    </div>
+
     <?php
     $gridColumn=[
         ['class'=>'yii\grid\SerialColumn'],

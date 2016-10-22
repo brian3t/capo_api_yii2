@@ -12,6 +12,8 @@ use yii\web\HttpException;
 class CuserController extends BaseActiveController
 {
     public $modelClass='app\models\Cuser';
+    const MAX_COORDS_DIFF=1;
+    const MAX_ITEMS=5;
 
     public function actions()
     {
@@ -116,6 +118,33 @@ class CuserController extends BaseActiveController
         }
         echo json_encode($result);
         return;
+    }
+
+    /**
+     * @param null $cur_lat
+     * @param null $cur_lng
+     */
+    public function actionGetDrivers($cur_lat=null,$cur_lng=null)
+    {
+        if(is_null($cur_lat))
+        {
+            $cur_lat=38.900571;
+        }
+        if(is_null($cur_lng))
+        {
+            $cur_lng=-77.008910;
+        }
+
+
+        $drivers=Cuser::find()->select(['id','lat','lng'])->where(['>=','lat',$cur_lat - self::MAX_COORDS_DIFF])
+            ->andWhere(['<=','lat',$cur_lat + self::MAX_COORDS_DIFF])
+            ->andWhere(['>=','lng',$cur_lng - self::MAX_COORDS_DIFF,])
+            ->andWhere(['<=','lng',$cur_lng + self::MAX_COORDS_DIFF])
+            ->andWhere(['<>','id',\Yii::$app->request->get('rider')])
+            ->andWhere(['=', 'cuser_status', 'driver_idle']) //driveridle
+            ->limit(self::MAX_ITEMS);
+        return $drivers->all();
+
     }
 
 }

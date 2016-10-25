@@ -4,11 +4,10 @@ namespace app\controllers;
 
 use Yii;
 use app\models\Cuser;
-use app\models\CuserSearch;
+use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-
 
 /**
  * CuserController implements the CRUD actions for Cuser model.
@@ -33,11 +32,11 @@ class CuserController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new CuserSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $dataProvider = new ActiveDataProvider([
+            'query' => Cuser::find(),
+        ]);
 
         return $this->render('index', [
-            'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
     }

@@ -5,7 +5,7 @@ use kartik\export\ExportMenu;
 use kartik\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel app\models\CuserSearch */
+// /* @var $searchModel app\models\CuserSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title='Cuser';
@@ -23,12 +23,12 @@ $this->registerJs($search);
 
     <p>
         <?= Html::a('Create Cuser',['create'],['class'=>'btn btn-success']) ?>
-        <?= Html::a('Advanced Search', '#', ['class' => 'btn btn-info search-button']) ?>
+        <?//= Html::a('Advanced Search', '#', ['class' => 'btn btn-info search-button']) ?>
     </p>
 
-    <div class="search-form" style="display:none">
-        <?= $this->render('_search', ['model' => $searchModel]); ?>
-    </div>
+    <!--<div class="search-form" style="display:none">-->
+    <!--    --><?//= $this->render('_search', ['model' => $searchModel]); ?>
+    <!--</div>-->
 
     <?php
     $gridColumn=[
@@ -39,7 +39,7 @@ $this->registerJs($search);
         'cuser_status',
         'status_code',
 //        'status_description',
-//        'commuter',
+       'commuter',
 //        'hashed_password',
         'enrolled',
         'email:email',
@@ -48,9 +48,9 @@ $this->registerJs($search);
         'lng',
         'address_realtime',
         'apns_device_reg_id',
-        ['attribute'=>'commuter_data',
-            'format'=>'html',
-            'contentOptions'=>['class'=>'jsonview']],
+        // ['attribute'=>'commuter_data',
+        //     'format'=>'html',
+        //     'contentOptions'=>['class'=>'jsonview']],
         [
             'class'=>'yii\grid\ActionColumn',
         ],

@@ -38,7 +38,7 @@ class Pusher
 // Instantiate a new ApnsPHP_Push object
         $this->push = new ApnsPHP_Push(
             ApnsPHP_Abstract::ENVIRONMENT_PRODUCTION,
-            '../config/iospush_no_pwCarpoolNow_PROD.pem'
+            '../config/PROD_server_certificates_bundle.pem'
         );
 
 // Set the Provider Certificate passphrase

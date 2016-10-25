@@ -23,11 +23,11 @@ $this->registerJs($search);
 
     <p>
         <?= Html::a('Create Cuser',['create'],['class'=>'btn btn-success']) ?>
-        <?//= Html::a('Advanced Search', '#', ['class' => 'btn btn-info search-button']) ?>
+        <? //= Html::a('Advanced Search', '#', ['class' => 'btn btn-info search-button']) ?>
     </p>
 
     <!--<div class="search-form" style="display:none">-->
-    <!--    --><?//= $this->render('_search', ['model' => $searchModel]); ?>
+    <!--    --><? //= $this->render('_search', ['model' => $searchModel]); ?>
     <!--</div>-->
 
     <?php

@@ -57,11 +57,22 @@ class Pusher
      * @param $offer Offer
      * @return mixed
      */
-    public function actionPushOfferFound($rider, $offer)
+    public function actionPushOfferFound($rider, $offer, $is_dev = false)
     {
         if ($rider->apns_device_reg_id == null) {
             return false;
         }
+        
+        if ($is_dev){
+            $this->push->disconnect();
+            $this->push = new ApnsPHP_Push(
+                ApnsPHP_Abstract::ENVIRONMENT_SANDBOX,
+                '../config/DEV_server_certificates_bundle.pem'
+            );
+            $this->push->setRootCertificationAuthority('../config/entrust_2048_ca.cer');
+            $this->push->connect();
+        }
+        
 // Instantiate a new Message with a single recipient
         $message = new ApnsPHP_Message($rider->apns_device_reg_id);
 

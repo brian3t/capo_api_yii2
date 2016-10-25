@@ -160,14 +160,14 @@ class OfferController extends BaseActiveController
         $offer = Offer::find()->where(['request_cuser' => '57c3a3235ac4a57c3a3235ac4f'])->one();
         $rider = Cuser::find()->where(['id' => '57c3a3235ac4a57c3a3235ac4f'])->one();
         if ($offer && $rider) {
-			$pusher->actionPushOfferFound($rider, $offer);
+			$pusher->actionPushOfferFound($rider, $offer, true);
 		}
 
 		//ROSS Edgar
-        $offer = Offer::find()->where(['request_cuser' => '57bb54360485157bb543604857'])->one();
-        $rider = Cuser::find()->where(['id' => '57bb54360485157bb543604857'])->one();
+        $offer = Offer::find()->where(['request_cuser' => '571317eeb6f15571317eeb6f1a'])->one();
+        $rider = Cuser::find()->where(['id' => '571317eeb6f15571317eeb6f1a'])->one();
         if ($offer && $rider) {
-			@$pusher->actionPushOfferFound($rider, $offer);
+			@$pusher->actionPushOfferFound($rider, $offer, true);
 		}
     }
 }

@@ -94,7 +94,7 @@ class Pusher
         $message->setText("You have been matched with $rider_name! Click here to return to the app and approve your ridematch.");
 
 // Play the default sound
-//        $message->setSound();
+        $message->setSound();
 
 // Set another custom property
 //        $message->setCustomProperty('offer', $offer->toArray());

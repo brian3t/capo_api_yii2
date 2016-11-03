@@ -108,7 +108,7 @@ class RequestController extends BaseActiveController
      */
     public function actionUpdate($id)
     {
-        /* @var $model ActiveRecord */
+        /* @var $model Request */
         $model = Request::find()->where(['cuser_id' => $id])->one();
         //try creating if not exists
         if (is_null($model)) {
@@ -129,6 +129,15 @@ class RequestController extends BaseActiveController
         $model->load(Yii::$app->getRequest()->getBodyParams(), '');
         if ($model->save() === false && !$model->hasErrors()) {
             throw new ServerErrorHttpException('Failed to update the object for unknown reason.');
+        } else {
+            if ($model->status == 'fulfilled') {
+                $offer = $model->offers;
+                $offer = $offer[0];
+                if ($offer->status == 'accepted') {
+                    $offer->status = 'fulfilled';
+                }
+                $offer->save();
+            }
         }
         
         return $model;

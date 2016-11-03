@@ -94,7 +94,7 @@ class OfferController extends BaseActiveController
 
 			// START mhemry
 			$rider = $model->requestCuser;
-			if ($rider->apns_device_reg_id !== null) {
+			if (property_exists($rider, 'apns_device_reg_id') && $rider->apns_device_reg_id !== null) {
 				$pusher = new Pusher();
 				$pusher->actionPushOfferFound($rider, $model);
 			}

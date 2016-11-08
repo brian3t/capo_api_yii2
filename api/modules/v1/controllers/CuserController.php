@@ -4,6 +4,7 @@ namespace app\api\modules\v1\controllers;
 use app\api\base\controllers\BaseActiveController;
 use app\models\Cuser;
 use yii\base\Exception;
+use yii\db\Query;
 use yii\rest\ActiveController;
 use yii\helpers\ArrayHelper;
 use yii\filters\Cors;
@@ -145,6 +146,13 @@ class CuserController extends BaseActiveController
             ->limit(self::MAX_ITEMS);
         return $drivers->all();
 
+    }
+
+    public function actionRandom(){
+        $select=new Query();
+        $select->select('username')->from('cuser');
+        $all_username=$select->column();
+        return $all_username[array_rand($all_username, 1)];
     }
 
 }

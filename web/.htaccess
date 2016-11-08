@@ -3,3 +3,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php
 
+AuthType Basic
+AuthName "Restricted Files"
+# (Following line optional)
+#AuthBasicProvider file
+AuthUserFile "/etc/apache2/passwd/passwords"
+Require user admin

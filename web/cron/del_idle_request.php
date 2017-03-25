@@ -47,6 +47,8 @@ while (($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {
 $stid = oci_parse($conn, 'DELETE from "request" WHERE "updated_at" < (SYSDATE - INTERVAL \'30\' MINUTE) ');
 oci_execute($stid);
 
+$stid = oci_parse($conn, 'UPDATE "cuser" set "cuser_status" = \'idle\' WHERE "updated_at" < (SYSDATE - INTERVAL \'30\' MINUTE) ');
+oci_execute($stid);
 
 $message .= "____________________________________________\r\n";
 fwrite($log, $message);

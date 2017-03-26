@@ -151,8 +151,13 @@ class CuserController extends BaseActiveController
     public function actionRandom(){
         $select=new Query();
         $select->select('username')->from('cuser');
-        $all_username=$select->column();
-        return $all_username[array_rand($all_username, 1)];
+        $all_username=$select->all();
+        $key = array_rand($all_username);
+        $value = $all_username[$key];
+        if (key_exists('username', $value)){
+            $value = $value['username'];
+        }
+        return $value;
     }
 
 }

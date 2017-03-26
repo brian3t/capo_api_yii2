@@ -116,6 +116,59 @@ class Pusher
         }
         return [true];
     }
+
+    /**
+     * @param $rider Cuser
+     * @param $offer Offer
+     * @return mixed
+     */
+    public function actionPushDirect($rider, $is_dev = false)
+    {
+        if ($rider->apns_device_reg_id == null) {
+            return false;
+        }
+
+        if ($is_dev){
+            $this->push->disconnect();
+            $this->push = new ApnsPHP_Push(
+                ApnsPHP_Abstract::ENVIRONMENT_SANDBOX,
+                '../config/DEV_server_certificates_bundle.pem'
+            );
+            $this->push->setRootCertificationAuthority('../config/entrust_2048_ca.cer');
+            $this->push->connect();
+        }
+
+// Instantiate a new Message with a single recipient
+        $message = new ApnsPHP_Message($rider->apns_device_reg_id);
+
+// Set a custom identifier. To get back this identifier use the getCustomIdentifier() method
+// over a ApnsPHP_Message object retrieved with the getErrors() message.
+        $message->setCustomIdentifier("Request_Offered");
+
+// Set badge icon to "3"
+        $message->setBadge(1);
+
+// Set a simple welcome text
+
+        $message->setText("You have been idle for a long time! Click here to return to the app.");
+
+// Play the default sound
+        $message->setSound();
+
+// Add the message to the message queue
+        $this->push->add($message);
+
+// Send all messages in the message queue
+        $this->push->send();
+
+// Examine the error message container
+        $aErrorQueue = $this->push->getErrors();
+        if (!empty($aErrorQueue)) {
+            Yii::error($aErrorQueue);
+            return json_encode($aErrorQueue);
+        }
+        return [true];
+    }
     
     public function __destruct()
     {

@@ -45,6 +45,7 @@ $config = [
                         'GET query' => 'query',//todob this is cuser query
                         'GET random' => 'random',//todob this is cuser query
                         'GET testpush' => 'testpush',//todob this is cuser query
+                        'GET testpushdirect' => 'testpushdirect',//todob this is cuser query
                     ],
 
                 ],

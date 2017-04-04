@@ -187,7 +187,7 @@ class OfferController extends BaseActiveController
         //Mediabeef
         $rider = Cuser::find()->where(['username' => [$username, ucwords($username)]])->one();
         if ($rider) {
-            @$pusher->actionPushDirect($rider, false);
+            $pusher->actionPushDirect($rider, false);
         }
     }
 }

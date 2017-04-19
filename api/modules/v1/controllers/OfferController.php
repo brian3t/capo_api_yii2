@@ -111,6 +111,7 @@ class OfferController extends BaseActiveController
         }
 
 //        $model->scenario = $this->scenario;
+        $model->load(Yii::$app->getRequest()->getBodyParams(), '');
         if ($model->save() === false) {
             throw new ServerErrorHttpException('Failed to create new offer.');
             Yii::error("Failed to create new offer. Params:" . json_encode(Yii::$app->getRequest()->getBodyParams()));

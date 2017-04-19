@@ -48,7 +48,7 @@ class CuserController extends BaseActiveController
         {
             $entityBody = json_decode($entityBody);
             //if cuser exists, return its id
-            if($entityBody->hasProperty('commuter'))
+            if(property_exists($entityBody,'commuter'))
             {
                 $cuser = Cuser::find()->where(array('commuter' => intval($entityBody->commuter)))->one();
                 if(is_object($cuser) && isset($cuser->id))

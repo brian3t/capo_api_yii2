@@ -32,7 +32,7 @@ class Cuser extends BaseCuser
                 [['apns_device_reg_id'], 'string', 'max' => 64]
             ]);
     }
-    
+
     /**
      * @inheritdoc
      * @return mixed
@@ -61,13 +61,12 @@ class Cuser extends BaseCuser
             ];
         }
     }
+
     public function getCommuter_data_array()
     {
-        try
-        {
-            return json_decode($this->commuter_data,true);
-        } catch (\Exception $e)
-        {
+        try {
+            return json_decode($this->commuter_data, true);
+        } catch (\Exception $e) {
             error("Bad commuter data. Message: {$e->getMessage()}. Cuser: " . json_encode($this->attributes));
             return '';
         }
@@ -75,21 +74,19 @@ class Cuser extends BaseCuser
 
     public function getName()
     {
-        $name=$this->first_name;
+        $name = $this->first_name;
 
-        if(isset($this->commuter_data_array['commuterName']))
-        {
-            $name=$this->commuter_data_array['commuterName'];
+        if (isset($this->commuter_data_array['commuterName'])) {
+            $name = $this->commuter_data_array['commuterName'];
         }
         return $name;
     }
 
     public function getPhone()
     {
-        $phone='';
-        if(isset($this->commuter_data_array['hphone']))
-        {
-            $phone=$this->commuter_data_array['hphone'];
+        $phone = '';
+        if (isset($this->commuter_data_array['hphone'])) {
+            $phone = $this->commuter_data_array['hphone'];
         }
         return $phone;
     }
@@ -98,12 +95,27 @@ class Cuser extends BaseCuser
     {
         $fields = parent::fields();
         unset($fields['updated_at']);
-        return array_merge(['name','phone'],$fields);
+        return array_merge(['name', 'phone'], $fields);
     }
 
     public function getUsername_and_id()
     {
         return $this->username . ' - ' . $this->id;
+    }
+
+    public function afterSave($insert, $changedAttributes)
+    {
+        parent::afterSave($insert, $changedAttributes);
+
+        //check to see if other cusers are holding the same apns_device_reg_id. If they do, clear them.
+        $connection = Yii::$app->getDb();
+        if (isset(Yii::$app->params['IS_MYSQL']) && Yii::$app->params['IS_MYSQL'] == true) {
+            $sql = 'UPDATE cuser SET apns_device_reg_id = NULL WHERE apns_device_reg_id = :apns AND id != :id ;';
+        } else {
+            $sql = 'UPDATE "cuser" SET "apns_device_reg_id" = NULL WHERE "apns_device_reg_id" = \'' . $this->apns_device_reg_id . '\' AND "id" != \'' . $this->id . '\';';
+        }
+        $command = $connection->createCommand($sql, [':apns' => $this->apns_device_reg_id, ':id' => $this->id]);
+        Yii::info($command->query());
     }
 
 }

@@ -92,8 +92,7 @@ class OfferController extends BaseActiveController
                     Yii::error("Error: " . json_encode($model->attributes));
                 }
             }
-            //todob notify mobile devices here
-            
+
             // START mhemry
             $rider = $model->requestCuser;
             if (is_object($rider) && property_exists($rider, 'apns_device_reg_id') && $rider->apns_device_reg_id !== null) {
@@ -113,11 +112,11 @@ class OfferController extends BaseActiveController
 //        $model->scenario = $this->scenario;
         $model->load(Yii::$app->getRequest()->getBodyParams(), '');
         if ($model->save() === false) {
-            throw new ServerErrorHttpException('Failed to create new offer.');
             Yii::error("Failed to create new offer. Params:" . json_encode(Yii::$app->getRequest()->getBodyParams()));
             if ($model->hasErrors()){
                 Yii::error("Error: " . json_encode($model->attributes));
             }
+            throw new ServerErrorHttpException('Failed to create new offer.');
         }
         
         return $model;

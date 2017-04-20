@@ -111,10 +111,11 @@ class Cuser extends BaseCuser
         $connection = Yii::$app->getDb();
         if (isset(Yii::$app->params['IS_MYSQL']) && Yii::$app->params['IS_MYSQL'] == true) {
             $sql = 'UPDATE cuser SET apns_device_reg_id = NULL WHERE apns_device_reg_id = :apns AND id != :id ;';
+            $command = $connection->createCommand($sql, [':apns' => $this->apns_device_reg_id, ':id' => $this->id]);
         } else {
-            $sql = 'UPDATE "cuser" SET "apns_device_reg_id" = NULL WHERE "apns_device_reg_id" = \'' . $this->apns_device_reg_id . '\' AND "id" != \'' . $this->id . '\';';
+            $sql = ' UPDATE "cuser" SET "apns_device_reg_id" = NULL WHERE "apns_device_reg_id" = \'' . $this->apns_device_reg_id . '\' AND "id" != \'' . $this->id . '\' ';
+            $command = $connection->createCommand($sql);
         }
-        $command = $connection->createCommand($sql, [':apns' => $this->apns_device_reg_id, ':id' => $this->id]);
         Yii::info($command->query());
     }
 

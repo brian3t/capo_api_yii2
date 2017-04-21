@@ -74,7 +74,7 @@ class Request extends BaseRequest
     function beforeDelete()
     {
         $pusher = new Pusher();
-        $pusher->actionPushRequestCancelled($this, true);
+        $pusher->actionPushRequestCancelled($this);
         return parent::beforeDelete();
     }
 }

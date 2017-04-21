@@ -78,7 +78,7 @@ class CuserController extends BaseActiveController
                 return;
             }
         } catch (Exception $e) {
-            \Yii::error("Bad input " . $e->getMessage());
+//            \Yii::error("Bad input " . $e->getMessage());
             \Yii::$app->response->setStatusCode(400);
             return;
         }
@@ -154,9 +154,10 @@ class CuserController extends BaseActiveController
         return $value;
     }
 
-    public function actionReset($id)
+    public function actionReset()
     {
         $result = [];
+        $id = \Yii::$app->request->getBodyParam('id');
         if (is_null($id)) {
             return $result;
         }

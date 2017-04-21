@@ -5,6 +5,7 @@ namespace app\models;
 use Yii;
 use \app\models\base\Request as BaseRequest;
 use yii\behaviors\TimestampBehavior;
+use app\helpers\Pusher;
 
 /**
  * This is the model class for table "request".
@@ -69,5 +70,11 @@ class Request extends BaseRequest
                 }
             ]);
     }
-
+    //before delete, send apns message to say request cancelled
+    function beforeDelete()
+    {
+        $pusher = new Pusher();
+        $pusher->actionPushRequestCancelled($this, true);
+        return parent::beforeDelete();
+    }
 }

@@ -5,6 +5,7 @@ namespace app\models;
 use Yii;
 use \app\models\base\Offer as BaseOffer;
 use yii\behaviors\TimestampBehavior;
+use app\helpers\Pusher;
 
 /**
  * This is the model class for table "offer".
@@ -17,13 +18,14 @@ class Offer extends BaseOffer
     public function rules()
     {
         return array_replace_recursive(parent::rules(),
-	    [
-            [['cuser_id', 'request_cuser'], 'required'],
-            [['created_at', 'updated_at'], 'safe'],
-            [['status'], 'string'],
-            [['cuser_id', 'request_cuser'], 'string', 'max' => 26]
-        ]);
+            [
+                [['cuser_id', 'request_cuser'], 'required'],
+                [['created_at', 'updated_at'], 'safe'],
+                [['status'], 'string'],
+                [['cuser_id', 'request_cuser'], 'string', 'max' => 26]
+            ]);
     }
+
     /**
      * @inheritdoc
      * @return mixed

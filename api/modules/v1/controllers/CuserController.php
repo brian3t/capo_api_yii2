@@ -157,18 +157,22 @@ class CuserController extends BaseActiveController
     public function actionReset()
     {
         $result = [];
+        $message = '';
         $id = \Yii::$app->request->getBodyParam('id');
         if (is_null($id)) {
             return $result;
         }
         $user = Cuser::findOne($id);
-        if (!is_object($user)){
-            return $result + ['message'=>'Cant find user by id'];
+        if (!is_object($user)) {
+            return $result + ['message' => 'Cant find user by id'];
         }
-        $message = Request::deleteAll(['cuser_id' => $id]) . ' requests deleted';
+        foreach ($user->requests as $request) {
+            $message .= 'Requests deleted' . $request->beforeDelete();
+            $request->delete();
+        }
         \Yii::error($message);
 
-        return $result + ['message'=>$message];
+        return $result + ['message' => $message];
     }
 }
 

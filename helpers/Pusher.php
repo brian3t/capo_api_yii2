@@ -13,17 +13,21 @@
  *
  * v0.5: pushes to devices having apns_device_reg_id
  */
+
 namespace app\helpers;
+
 use ApnsPHP_Push;
 use ApnsPHP_Abstract;
 use ApnsPHP_Message;
 use app\models\Cuser;
 use app\models\Offer;
+use app\models\Request;
 use Yii;
 
 class Pusher
 {
     private $push;
+
     public function __construct()
     {
 // Adjust to your timezone
@@ -62,8 +66,8 @@ class Pusher
         if ($rider->apns_device_reg_id == null) {
             return false;
         }
-        
-        if ($is_dev){
+
+        if ($is_dev) {
             $this->push->disconnect();
             $this->push = new ApnsPHP_Push(
                 ApnsPHP_Abstract::ENVIRONMENT_SANDBOX,
@@ -72,7 +76,7 @@ class Pusher
             $this->push->setRootCertificationAuthority('../config/entrust_2048_ca.cer');
             $this->push->connect();
         }
-        
+
 // Instantiate a new Message with a single recipient
         $message = new ApnsPHP_Message($rider->apns_device_reg_id);
 
@@ -85,11 +89,11 @@ class Pusher
 
 // Set a simple welcome text
         $rider_name = $offer->cuser->first_name;
-        $rider_names=explode(' ',$rider_name);
-        if (count($rider_names) >= 2){
+        $rider_names = explode(' ', $rider_name);
+        if (count($rider_names) >= 2) {
             $rider_names[1] = strtoupper($rider_names[1][0]) . '.';
         }
-        $rider_name=implode(' ', $rider_names);
+        $rider_name = implode(' ', $rider_names);
 
         $message->setText("You have been matched with $rider_name! Click here to return to the app and approve your ridematch.");
 
@@ -111,7 +115,7 @@ class Pusher
 // Examine the error message container
         $aErrorQueue = $this->push->getErrors();
         if (!empty($aErrorQueue)) {
-             Yii::error($aErrorQueue);
+            Yii::error($aErrorQueue);
             return json_encode($aErrorQueue);
         }
         return [true];
@@ -128,7 +132,7 @@ class Pusher
             return false;
         }
 
-        if ($is_dev){
+        if ($is_dev) {
             $this->push->disconnect();
             $this->push = new ApnsPHP_Push(
                 ApnsPHP_Abstract::ENVIRONMENT_SANDBOX,
@@ -169,7 +173,60 @@ class Pusher
         }
         return [true];
     }
-    
+
+    /**
+     * @param $request Request
+     * @param $offer Offer
+     * @return mixed
+     */
+    public function actionPushRequestCancelled($request, $is_dev = false)
+    {
+        if ($is_dev) {
+            $this->push->disconnect();
+            $this->push = new ApnsPHP_Push(
+                ApnsPHP_Abstract::ENVIRONMENT_SANDBOX,
+                '../config/DEV_server_certificates_bundle.pem'
+            );
+            $this->push->setRootCertificationAuthority('../config/entrust_2048_ca.cer');
+            $this->push->connect();
+        }
+
+        foreach ($request->offers as $offer) {
+            if ($offer->cuser->apns_device_reg_id == null) {
+                continue;
+            }
+// Instantiate a new Message with a single recipient
+            $message = new ApnsPHP_Message($offer->cuser->apns_device_reg_id);
+
+// Set a custom identifier. To get back this identifier use the getCustomIdentifier() method
+// over a ApnsPHP_Message object retrieved with the getErrors() message.
+            $message->setCustomIdentifier("Request_Cancelled");
+
+// Set badge icon to "3"
+            $message->setBadge(1);
+
+// Set a simple welcome text
+
+            $message->setText("Rider has cancelled this trip.");
+
+// Play the default sound
+            $message->setSound();
+
+// Add the message to the message queue
+            $this->push->add($message);
+
+// Send all messages in the message queue
+            $this->push->send();
+
+// Examine the error message container
+            $aErrorQueue = $this->push->getErrors();
+            if (!empty($aErrorQueue)) {
+                Yii::error($aErrorQueue);
+            }
+        }
+        return [true];
+    }
+
     public function __destruct()
     {
         // Disconnect from the Apple Push Notification Service

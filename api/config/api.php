@@ -43,6 +43,7 @@ $config = [
                     ],
                     'extraPatterns' => [
                         'GET query' => 'query',//todob this is cuser query
+                        'POST reset' => 'reset',//todob this is cuser reset
                         'GET random' => 'random',//todob this is cuser query
                         'GET testpush' => 'testpush',//todob this is cuser query
                         'GET testpushdirect' => 'testpushdirect',//todob this is cuser query
